@@ -4,7 +4,7 @@
 ---
 ## Presentación del Programa
 
-La Maestría en Negociación con Sistemas Autónomos es un programa pionero diseñado para formar a la próxima generación de expertos e investigadores en la interacción estratégica entre agentes inteligentes, tanto artificiales como humanos. En un mundo donde los sistemas autónomos toman decisiones cada vez más complejas y participan activamente en procesos de negociación, es imperativo comprender los fundamentos teóricos, algorítmicos, psicológicos y éticos que subyacen a estas interacciones. Este programa multidisciplinar ofrece una formación rigurosa en Teoría de Juegos, Aprendizaje por Refuerzo Multiagente, Psicología Cognitiva, Ética Computacional y Modelos de Lenguaje Grandes, combinada con una fuerte orientación práctica y de investigación aplicada para abordar los desafíos actuales y futuros de la negociación en la era de la IA.
+La Master en Negociación con Sistemas Autónomos es un programa pionero diseñado para formar a la próxima generación de expertos e investigadores en la interacción estratégica entre agentes inteligentes, tanto artificiales como humanos. En un mundo donde los sistemas autónomos toman decisiones cada vez más complejas y participan activamente en procesos de negociación, es imperativo comprender los fundamentos teóricos, algorítmicos, psicológicos y éticos que subyacen a estas interacciones. Este programa multidisciplinar ofrece una formación rigurosa en Teoría de Juegos, Aprendizaje por Refuerzo Multiagente, Psicología Cognitiva, Ética Computacional y Grandes Modelos de Lenguaje, combinada con una fuerte orientación práctica y de investigación aplicada para abordar los desafíos actuales y futuros de la negociación en la era de la IA.
 
 ---
 ## Perfil de Entrada
@@ -18,7 +18,7 @@ La maestría está dirigida a graduados con perfiles cuantitativos y técnicos, 
 *   **Fundamentos de Teoría de Juegos:** Conocimiento de juegos en forma normal y extensiva, estrategias puras y mixtas, dominancia, y el concepto de equilibrio de Nash. Familiaridad básica con juegos dinámicos e inducción hacia atrás.
 *   **Estadística y Probabilidad:** Conocimiento de estadística descriptiva e inferencial, principales distribuciones de probabilidad, teorema de Bayes, y fundamentos de regresión lineal.
 *   **Introducción a Machine Learning:** Comprensión de los conceptos básicos de aprendizaje supervisado (regresión, clasificación) y no supervisado (clustering), métricas de evaluación, y procesos de validación de modelos.
-*   **Experiencia Práctica con LLMs:** Haber utilizado activamente al menos dos Modelos de Lenguaje Grandes (ej. ChatGPT, Gemini, Claude) para tareas de generación de texto, resumen, traducción, etc. Comprender los conceptos básicos de "prompting" (instrucción) y las capacidades/limitaciones generales de estos modelos.
+*   **Experiencia Práctica con LLMs:** Haber utilizado activamente al menos dos Grandes Modelos de Lenguaje (ej. ChatGPT, Gemini, Claude) para tareas de generación de texto, resumen, traducción, etc. Comprender los conceptos básicos de "prompting" (instrucción) y las capacidades/limitaciones generales de estos modelos.
 
 ---
 ## Estructura Modular del Programa
@@ -200,7 +200,7 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 
 
 ![Separador](imagen1.png)
-#### NSA-105: Modelos de Lenguaje Grandes y Diálogo Estratégico
+#### NSA-105: Grandes Modelos de Lenguaje y Diálogo Estratégico
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 12 semanas de docencia)
@@ -402,7 +402,7 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Desarrollar habilidades avanzadas de lectura crítica y análisis de la literatura científica reciente en el campo.
     *   Identificar los problemas abiertos y las fronteras de investigación actuales en negociación con sistemas autónomos.
     *   Practicar la comunicación oral y escrita de conceptos científicos complejos.
-    *   Explorar áreas de investigación potencial y refinar intereses para el Proyecto Final de Maestría (TFM).
+    *   Explorar áreas de investigación potencial y refinar intereses para el Proyecto Final de Master (TFM).
 *   **Formato:** Seminario semanal. Cada semana, uno o dos estudiantes (o el profesor) presentan y lideran la discusión de 1-2 papers seminales o muy recientes sobre un tema de vanguardia. Los temas cubren las intersecciones de IA, Juegos, Ética, LLMs en negociación, incluyendo: negociación con información cuántica, agentes que aprenden a engañar o a detectar engaños, el impacto socioeconómico de la negociación autónoma, la negociación en real-time o a gran escala, negociación con recursos finitos, etc. Se requiere lectura previa y participación activa de todos. Hacia el final del semestre, se dedica tiempo a presentar ideas iniciales para el TFM y recibir feedback.
 *   **Bibliografía:** Artículos recientes de las principales conferencias (NeurIPS, ICML, ICLR, AAMAS, IJCAI, AAAI, ACM AIES, ACM FAccT, etc.) y revistas (AIJ, JAIR, Games and Economic Behavior, AI & Society, Ethics and Information Technology, etc.) relevantes. Se definen los papers específicos cada semestre.
 *   **Evaluación:**
@@ -508,7 +508,7 @@ Sesiones a lo largo del cuatrimestre dedicadas a la presentación y discusión d
 *   **Formato:** Experiencia práctica en una empresa, centro de investigación o institución relevante, bajo la supervisión de un tutor de la entidad y un tutor académico de la maestría. El prácticum debe permitir al estudiante aplicar los conocimientos y habilidades adquiridos a un problema o proyecto real relacionado con la negociación, sistemas autónomos, IA, mercados algorítmicos, ética de la IA, o interacción H-AI. Se fomenta la búsqueda activa de prácticum por parte del estudiante, con apoyo de la universidad.
 *   **Entregable:** Informe detallado (aprox. 25-30 páginas) sobre el trabajo realizado, los desafíos técnicos y conceptuales encontrados, las soluciones propuestas y aprendidas, y la relación del trabajo con los contenidos de la maestría. Presentación de los resultados del prácticum ante un comité evaluador interno.
 
-#### Tesis de Maestría (TFM - Proyecto Final)
+#### Tesis de Master (TFM - Proyecto Final)
 
 *   **Créditos:** 25 ECTS
 *   **Dedicación:** Trabajo autónomo intensivo bajo la supervisión del director de tesis. Equivalente a aprox. 625 horas de trabajo. Es el trabajo central del año 2.
@@ -528,7 +528,7 @@ Sesiones periódicas (ej. quincenales) a lo largo del cuatrimestre para el segui
 ## Infraestructura y Recursos Necesarios
 
 *   **Laboratorios de Computación:** Salas equipadas con estaciones de trabajo de alto rendimiento y acceso a un clúster de GPUs (`NVIDIA A100`, `H100` o similar) para tareas intensivas de entrenamiento de modelos de Deep Learning y MARL.
-*   **Acceso a Plataformas de IA:** Licencias institucionales o acceso a APIs de Modelos de Lenguaje Grandes comerciales de última generación (ej. `GPT-4`, `Gemini Ultra`, `Claude 3`) y recursos computacionales suficientes para desplegar, fine-tunear y experimentar con modelos open-source (`Llama 3`, `Mistral`, etc.) en la infraestructura local o en la nube.
+*   **Acceso a Plataformas de IA:** Licencias institucionales o acceso a APIs de Grandes Modelos de Lenguaje comerciales de última generación (ej. `GPT-4`, `Gemini Ultra`, `Claude 3`) y recursos computacionales suficientes para desplegar, fine-tunear y experimentar con modelos open-source (`Llama 3`, `Mistral`, etc.) en la infraestructura local o en la nube.
 *   **Entornos de Simulación Multiagente:** Servidores y software para ejecutar simulaciones a gran escala utilizando plataformas consolidadas (`PettingZoo`, `Unity ML-Agents`, `Gymnasium`) y simuladores ad-hoc para escenarios complejos (ej. mercados energéticos, gestión de tráfico autónomo, cadenas de suministro).
 *   **Bases de Datos y Repositorios:** Acceso a colecciones de datos de negociaciones reales (anonimizadas, ej. de plataformas ODR, mercados simulados) y acceso a repositorios públicos de datasets (ej. Hugging Face Datasets) y modelos pre-entrenados.
 *   **Biblioteca Digital y Física:** Amplio acceso a libros, revistas científicas y actas de conferencias en las áreas clave del programa (Teoría de Juegos, IA, Machine Learning, NLP, Economía, Psicología, Ética) a través de bases de datos académicas líderes (ej. ACM Digital Library, IEEE Xplore, SpringerLink, ScienceDirect, JSTOR, etc.).
@@ -541,7 +541,7 @@ Sesiones periódicas (ej. quincenales) a lo largo del cuatrimestre para el segui
 
 ## Carreras Profesionales y Salidas Laborales
 
-Los graduados de la Maestría en Negociación con Sistemas Autónomos estarán altamente cualificados para roles de liderazgo técnico y conceptual en sectores de vanguardia, dada su formación multidisciplinar única y su profundo conocimiento de la interacción estratégica en sistemas inteligentes. Las salidas profesionales incluyen:
+Los graduados de la Master en Negociación con Sistemas Autónomos estarán altamente cualificados para roles de liderazgo técnico y conceptual en sectores de vanguardia, dada su formación multidisciplinar única y su profundo conocimiento de la interacción estratégica en sistemas inteligentes. Las salidas profesionales incluyen:
 
 *   **Ingeniería e Investigación en IA Avanzada:**
     *   Ingeniero de Agentes Inteligentes / Ingeniero de Sistemas Multiagente.
@@ -570,4 +570,3 @@ Los graduados de la Maestría en Negociación con Sistemas Autónomos estarán a
     *   Roles de especialista en IA estratégica en logística y cadena de suministro, gestión energética, sistemas de transporte autónomo, e-commerce avanzado, y el sector legal (mediación asistida).
 *   **Academia:**
     *   Continuación de estudios de doctorado en IA, Teoría de Juegos, Economía Computacional, Ética de la IA, o campos relacionados, para seguir una carrera investigadora o académica.
-
