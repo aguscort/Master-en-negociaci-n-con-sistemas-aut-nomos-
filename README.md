@@ -1,4 +1,4 @@
-## Master Universitario en Negociación con Sistemas Autónomos
+# Master Universitario en Negociación con Sistemas Autónomos
 **Total Créditos ECTS:** 120
 
 ---
