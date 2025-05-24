@@ -2,19 +2,16 @@
 **Total Créditos ECTS:** 120
 
 ---
-
 ## Presentación del Programa
 
 La Maestría en Negociación con Sistemas Autónomos es un programa pionero diseñado para formar a la próxima generación de expertos e investigadores en la interacción estratégica entre agentes inteligentes, tanto artificiales como humanos. En un mundo donde los sistemas autónomos toman decisiones cada vez más complejas y participan activamente en procesos de negociación, es imperativo comprender los fundamentos teóricos, algorítmicos, psicológicos y éticos que subyacen a estas interacciones. Este programa multidisciplinar ofrece una formación rigurosa en Teoría de Juegos, Aprendizaje por Refuerzo Multiagente, Psicología Cognitiva, Ética Computacional y Modelos de Lenguaje Grandes, combinada con una fuerte orientación práctica y de investigación aplicada para abordar los desafíos actuales y futuros de la negociación en la era de la IA.
 
 ---
-
 ## Perfil de Entrada
 
 La maestría está dirigida a graduados con perfiles cuantitativos y técnicos, interesados en la intersección de la inteligencia artificial, la economía, la psicología y la ética. Se espera que los candidatos tengan una base sólida que les permita abordar los aspectos teóricos y prácticos del programa.
 
 ---
-
 ## Pre-requisitos de Entrada Obligatorios
 
 *   **Programación Avanzada en Python:** Dominio del lenguaje y experiencia con librerías clave para computación científica (`NumPy`, `SciPy`, `Pandas`) y machine learning (`TensorFlow` o `PyTorch`, `scikit-learn`). Se valorará familiaridad con programación orientada a objetos y estructuras de datos eficientes.
@@ -24,7 +21,6 @@ La maestría está dirigida a graduados con perfiles cuantitativos y técnicos, 
 *   **Experiencia Práctica con LLMs:** Haber utilizado activamente al menos dos Modelos de Lenguaje Grandes (ej. ChatGPT, Gemini, Claude) para tareas de generación de texto, resumen, traducción, etc. Comprender los conceptos básicos de "prompting" (instrucción) y las capacidades/limitaciones generales de estos modelos.
 
 ---
-
 ## Estructura Modular del Programa
 
 El programa se articula en dos años académicos, divididos en cuatro cuatrimestres, sumando un total de 120 ECTS.
@@ -42,6 +38,7 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 
 ### CUATRIMESTRE 1 (Q1): Pilares Cuantitativos y de IA (30 ECTS)
 
+![Separador](imagen1.png)
 #### NSA-101: Teoría de Juegos para Agentes Autónomos
 
 *   **Créditos:** 6 ECTS
@@ -79,8 +76,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 8-10: Implementación de diferentes tipos de subastas y mecanismos VCG básicos. Simulación con agentes con diferentes valoraciones.
     *   Semanas 11-12: Implementación de funciones de utilidad con aversión al riesgo. Ejercicios de modelado de preferencias simples que incluyan factores no monetarios.
 
----
 
+![Separador](imagen1.png)
 #### NSA-102: Aprendizaje por Refuerzo Multiagente (MARL)
 
 *   **Créditos:** 6 ECTS
@@ -119,8 +116,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 9-11: Implementación de un algoritmo basado en políticas (ej. A2C o MADDPG simplificado). Experimentos con self-play.
     *   Semana 12: Benchmarking y análisis comparativo de los agentes entrenados. Ajuste de hiperparámetros.
 
----
 
+![Separador](imagen1.png)
 #### NSA-103: Psicología y Ética en la Negociación
 
 *   **Créditos:** 5 ECTS
@@ -161,8 +158,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 7-9: Trabajo en el proyecto "Agente Ético": modelado de funciones de utilidad con componentes éticos, implementación de penalizaciones en un entorno de simulación simple. Uso de herramientas XAI básicas (ej. LIME/SHAP en un modelo de decisión simple) para "inspeccionar" por qué un agente tomó una acción.
     *   Semanas 10-12: Trabajo en el proyecto "Score Moral". Análisis de métricas de fairness en datasets sintéticos. Debates estructurados sobre casos de gobernanza y regulación.
 
----
 
+![Separador](imagen1.png)
 #### NSA-104: Protocolos Algorítmicos de Negociación
 
 *   **Créditos:** 6 ECTS
@@ -201,8 +198,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 8-10: Implementación de un mecanismo de Market Scoring Rule simple. Simulación de un mercado de predicción con agentes sintéticos.
     *   Semanas 11-12: Configuración de simulaciones multiagente para comparar protocolos de negociación multi-parte o en red. Análisis de métricas. Uso de librerías de simulación multiagente (`mesa`, `paho-mqtt` para comunicación).
 
----
 
+![Separador](imagen1.png)
 #### NSA-105: Modelos de Lenguaje Grandes y Diálogo Estratégico
 
 *   **Créditos:** 6 ECTS
@@ -245,7 +242,7 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 ---
 
 ### CUATRIMESTRE 2 (Q2): Interacción, Cognición y Diseño (30 ECTS)
-
+![Separador](imagen1.png)
 #### NSA-106: Interacción Humano-Agente en Negociación
 
 *   **Créditos:** 6 ECTS
@@ -281,8 +278,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 5-8: Prototipado de interfaces en frameworks web (ej. Flask/Django con HTML/JS) o herramientas de prototipado rápido (ej. Figma, Adobe XD). Diseño de encuestas y métricas de usabilidad/percepción.
     *   Semanas 9-12: Configuración y ejecución de experimentos con participantes (usando plataformas online como Prolific o reclutamiento local simulado). Análisis cuantitativo (ej. usando `pingouin` o `statsmodels` en Python) y cualitativo de datos de interacción y percepción. Preparación de informes.
 
----
 
+![Separador](imagen1.png)
 #### NSA-107: Aprendizaje Inverso y Modelado de Agentes
 
 *   **Créditos:** 6 ECTS
@@ -318,8 +315,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 6-10: Trabajo en el proyecto Bayesiano de Modelado: uso de librerías de modelado probabilístico (ej. `PyMC3`, `Stan`, `Pyro`) para definir y ajustar modelos de agentes. Aplicar técnicas de inferencia (ej. MCMC, Variational Inference) a datos de negociación simulada o datasets públicos (ej. `Dataset of Negotiation Dialogues` si está disponible).
     *   Semanas 11-12: Experimentación con la integración de modelos de oponentes simples en un agente de negociación. Análisis de cómo la precisión del modelo del oponente afecta el resultado de la negociación.
 
----
 
+![Separador](imagen1.png)
 #### NSA-108: Algoritmos Avanzados para la Negociación en Entornos Complejos
 
 *   **Créditos:** 6 ECTS
@@ -356,8 +353,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 8-11: Implementación de algoritmos de búsqueda en árbol (ej. MCTS básico en Python). Adaptación a juegos de negociación secuencial. Experimentación con heurísticas de evaluación.
     *   Semana 12: Experimentación con la integración de conocimiento externo o procesamiento de texto (usando APIs de LLMs) para informar la estrategia de un agente en un entorno complejo simulado.
 
----
 
+![Separador](imagen1.png)
 #### NSA-109: Ética Aplicada y Gobernanza de Sistemas Autónomos Negociadores
 
 *   **Créditos:** 6 ECTS
@@ -394,8 +391,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 8-11: Análisis comparativo de textos legales y regulatorios. Diseño de simulaciones de "sandboxes" regulatorios (definición de reglas y métricas de cumplimiento). Preparación para los debates.
     *   Semana 12: Debate final.
 
----
 
+![Separador](imagen1.png)
 #### NSA-110: Seminario de Investigación y Temas de Vanguardia
 
 *   **Créditos:** 6 ECTS
@@ -421,7 +418,7 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 ### CUATRIMESTRE 3 (Q3): Sistemas Avanzados y Aplicaciones (30 ECTS)
 
 **Cursos Obligatorios (24 ECTS)**
-
+![Separador](imagen1.png)
 #### NSA-201. Sistemas de Negociación Híbrida Humano-IA
 
 *   **Créditos:** 6 ECTS
@@ -432,8 +429,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 *   **Evaluación:** Proyecto de Sistema Híbrido (50%) - Diseño e implementación de un prototipo funcional de sistema de negociación asistida por IA o un sistema donde un humano colabora activamente con un agente negociador. Seminarios de discusión/presentación (30%). Examen final (20%).
 *   **Laboratorio/Proyecto:** Trabajo intensivo en el proyecto. Integración de modelos de LLM (para interfaz conversacional o análisis de texto), motores de decisión (basados en RL o Juegos), y interfaces de usuario (web, desktop). Desarrollo de protocolos de comunicación interna entre módulos. Pruebas de usabilidad y funcionalidad con usuarios simulados o reales (si es posible a pequeña escala).
 
----
 
+![Separador](imagen1.png)
 #### NSA-202. Diseño de Mercados y Plataformas de Negociación Autónoma
 
 *   **Créditos:** 6 ECTS
@@ -444,8 +441,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 *   **Evaluación:** Proyecto de Plataforma Simplificada (50%) - Diseño e implementación de un prototipo a pequeña escala de una plataforma de negociación autónoma que permita la interacción entre múltiples agentes. Seminarios de discusión (30%). Examen final (20%).
 *   **Laboratorio/Proyecto:** Trabajo intensivo en el proyecto. Uso de frameworks para sistemas multiagente (ej. `SPADE` en Python, o frameworks en Java/Scala). Exploración de tecnologías de smart contracts y simulación de su ejecución. Experimentación con arquitecturas distribuidas y protocolos de comunicación. Pruebas de escalabilidad (simulada) y seguridad básicas. Uso de herramientas de monitorización.
 
----
 
+![Separador](imagen1.png)
 #### NSA-203. Seguridad Adversarial en Negociación con Sistemas Autónomos
 
 *   **Créditos:** 6 ECTS
@@ -463,8 +460,8 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 5-8: Implementación de mecanismos de detección de anomalías en secuencias de ofertas o mensajes. Experimentación con técnicas de filtrado de prompts.
     *   Semanas 9-12: Trabajo en el proyecto de Agente Robusto: implementación de defensas y evaluación de su efectividad frente a ataques simulados. Análisis comparativo de diferentes estrategias de defensa.
 
----
 
+![Separador](imagen1.png)
 #### NSA-204. Taller Integrado de Diseño de Agentes Negociadores
 
 *   **Créditos:** 6 ECTS
