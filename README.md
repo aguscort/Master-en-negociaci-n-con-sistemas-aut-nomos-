@@ -4,7 +4,7 @@
 ---
 ## Presentación del Programa
 
-La Master en Negociación con Sistemas Autónomos es un programa pionero diseñado para formar a la próxima generación de expertos e investigadores en la interacción estratégica entre agentes inteligentes, tanto artificiales como humanos. En un mundo donde los sistemas autónomos toman decisiones cada vez más complejas y participan activamente en procesos de negociación, es imperativo comprender los fundamentos teóricos, algorítmicos, psicológicos y éticos que subyacen a estas interacciones. Este programa multidisciplinar ofrece una formación rigurosa en Teoría de Juegos, Aprendizaje por Refuerzo Multiagente, Psicología Cognitiva, Ética Computacional y Grandes Modelos de Lenguaje, combinada con una fuerte orientación práctica y de investigación aplicada para abordar los desafíos actuales y futuros de la negociación en la era de la IA.
+El Master en Negociación con Sistemas Autónomos es un programa pionero diseñado para formar a la próxima generación de expertos e investigadores en la interacción estratégica entre agentes inteligentes, tanto artificiales como humanos. En un mundo donde los sistemas autónomos toman decisiones cada vez más complejas y participan activamente en procesos de negociación, es imperativo comprender los fundamentos teóricos, algorítmicos, psicológicos y éticos que subyacen a estas interacciones. Este programa multidisciplinar ofrece una formación rigurosa en Teoría de Juegos, Aprendizaje por Refuerzo Multiagente, Psicología Cognitiva, Ética Computacional y Grandes Modelos de Lenguaje, combinada con una fuerte orientación práctica y de investigación aplicada para abordar los desafíos actuales y futuros de la negociación en la era de la IA.
 
 ---
 ## Perfil de Entrada
