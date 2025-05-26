@@ -1,0 +1,53 @@
+# Semana 11: Funciones de Utilidad y Teoría de la Utilidad Esperada
+
+En el estudio de sistemas con múltiples tomadores de decisiones que interactúan, como en la teoría de juegos o los sistemas multiagente, un concepto fundamental es cómo los agentes evalúan diferentes resultados o situaciones. Las **funciones de utilidad** son la herramienta principal utilizada para modelar las **preferencias** de un agente o individuo sobre un conjunto de posibles **resultados (outcomes)**, o más generalmente, sobre cursos de acción o estrategias. La utilidad se concibe como una medida numérica que representa el valor o la satisfacción que un agente obtiene de un resultado particular.
+
+En el contexto de la teoría de juegos, el análisis a menudo comienza con la especificación de un modelo que describe el juego, y las funciones de utilidad definen los pagos (payoffs) que recibe cada jugador por diferentes combinaciones de acciones o resultados. Estas funciones permiten definir conceptos clave como el equilibrio de Nash, donde ningún jugador tiene un incentivo para cambiar su estrategia dada la estrategia de los demás.
+
+## Funciones de Utilidad y Preferencias
+
+La idea de utilidad como modelo formal para razonar sobre el "bienestar" o la "felicidad" de un agente en diferentes situaciones es pervasive. Sin embargo, la afirmación de que una función unidimensional es suficiente para explicar las preferencias sobre un conjunto arbitrariamente complicado de alternativas es sustantiva y requiere justificación. Los teóricos de la utilidad responden a esto demostrando que la idea de utilidad puede basarse en un concepto más básico de preferencias.
+
+Formalmente, para un conjunto finito de resultados $O$, se pueden definir relaciones de preferencia entre pares de resultados, como preferencia débil ($\succeq$), indiferencia ($\sim$), y preferencia estricta ($\succ$). Una función de utilidad $u$ representa estas preferencias si $o_1 \succeq o_2$ si y solo si $u(o_1) \geq u(o_2)$ para cualquier par de resultados $o_1, o_2 \in O$.
+
+En entornos más complejos, la utilidad de un agente puede depender no solo del resultado físico, sino también de otros factores, como sus propias características o "tipo". Esto se ve en juegos con información incompleta, donde la función de utilidad de un agente $i$ para un resultado $o$ y un perfil de tipos $\theta = (\theta_i, \theta_{-i})$ puede escribirse como $u_i(o, \theta)$. En algunos casos, puede asumirse una "independencia condicional de la utilidad", donde la utilidad de un agente solo depende de su propio tipo $\theta_i$ y no de los tipos de otros agentes.
+
+## Teoría de la Utilidad Esperada (von Neumann-Morgenstern)
+
+La teoría de la utilidad esperada, en particular la formulación de **von Neumann y Morgenstern**, es fundamental para modelar las decisiones de los agentes bajo **incertidumbre**. Esta teoría se centra en cómo los agentes racionales eligen entre *loterías*, que son distribuciones de probabilidad sobre los resultados posibles.
+
+El resultado principal de esta teoría es el **teorema de maximización de la utilidad esperada**. Este teorema establece que si las preferencias de un tomador de decisiones sobre loterías satisfacen un conjunto de **axiomas** (condiciones de consistencia débiles), entonces existe una función de utilidad $u$ sobre los resultados, de manera que el agente prefiere una lotería a otra si y solo si la **utilidad esperada** de la primera lotería es mayor que la de la segunda. La utilidad esperada de una lotería es simplemente la suma (o integral) de la utilidad de cada resultado posible, ponderada por la probabilidad de que ocurra ese resultado en la lotería.
+
+Los orígenes de esta teoría y sus derivaciones axiomáticas se remontan a Ramsey (1926), von Neumann y Morgenstern (1947), y Savage (1954). Otros autores notables han ofrecido derivaciones adicionales. Las fuentes mencionan que los axiomas utilizados para justificar el teorema de maximización de la utilidad esperada son principalmente **suposiciones de consistencia débiles**. Un axioma clave mencionado es el **"sure-thing axiom"** o axioma de sustitución, el cual puede parafrasearse informalmente como: "Si un tomador de decisiones preferiría la opción 1 sobre la opción 2 cuando ocurre el evento A, y preferiría la opción 1 sobre la opción 2 cuando el evento A no ocurre, entonces debería preferir la opción 1 sobre la opción 2 incluso antes de saber si el evento A ocurrirá o no". Este axioma, junto con algunas condiciones técnicas de regularidad, es suficiente para garantizar la existencia de una escala de utilidad tal que el agente siempre prefiera las opciones que ofrecen el mayor valor de utilidad esperada.
+
+El teorema de maximización de la utilidad esperada se considera una prueba de la **validez prescriptiva** del modelo: si un tomador de decisiones se desvía de él, está cometiendo un error. Además, se espera que sea **predictivamente preciso** en situaciones donde las personas han tenido tiempo suficiente para aprender y pensar claramente sobre la situación.
+
+### Unicidad de la Función de Utilidad von Neumann-Morgenstern
+
+Una propiedad importante de la función de utilidad derivada de los axiomas de von Neumann-Morgenstern es que es única solo **hasta una transformación afín**. Esto significa que si $u(o)$ es una función de utilidad que representa las preferencias de un agente, entonces cualquier otra función $u'(o) = a \cdot u(o) + b$, donde $a > 0$ y $b$ son constantes reales, también representa las mismas preferencias y resultará en las mismas decisiones al maximizar la utilidad esperada. En esencia, esto implica que la escala de utilidad (el punto cero y la unidad de medida) es arbitraria; lo que importa son las diferencias de utilidad entre resultados o loterías, y no los valores absolutos de utilidad. Esta propiedad hace que el axioma de "Independencia de Alternativas Irrelevantes" (IIA) sea apropiado bajo esta suposición.
+
+Las fuentes mencionan un ejemplo de una negociación entre una empresa y un sindicato, donde la utilidad von Neumann-Morgenstern de la empresa por un acuerdo de salario y empleo $(w, \ell)$ es su beneficio $f(\ell) - \ell w$, y la del sindicato es la cantidad total de dinero $\ell w + (L - \ell)w_0$ recibida por sus miembros. Aunque este ejemplo trata con resultados que tienen múltiples componentes (salario y empleo), la teoría de la utilidad esperada se aplica a la evaluación de loterías sobre estos resultados.
+
+### Axiomas Clave (Basado en las Fuentes)
+
+Aunque las fuentes no listan todos los axiomas formalmente, destacan:
+*   **Consistencia Débil:** Los axiomas imponen condiciones de consistencia en las preferencias.
+*   **Axioma de Sustitución / Sure-Thing Axiom:** Si se prefiere $o_1$ a $o_2$ en caso de que ocurra el evento A y también en caso de que A no ocurra, entonces se debe preferir $o_1$ a $o_2$ independientemente de si A ocurre.
+
+Es importante notar que las fuentes mencionan que existen derivaciones axiomáticas detalladas en la literatura, a menudo utilizando un conjunto de axiomas que no es necesariamente el mínimo lógico.
+
+## Medición de la Aversión al Riesgo
+
+Las fuentes proporcionadas **no discuten explícitamente** la medición de la aversión al riesgo.
+
+***Información no proveniente de las fuentes:***
+En el marco de la teoría de la utilidad esperada, la **aversión al riesgo** se modela a través de la **forma de la función de utilidad** sobre el dinero o la riqueza. Un agente es **reacio al riesgo** si prefiere un resultado cierto a una lotería con el mismo valor esperado [Contexto general de RL]. Esto se traduce matemáticamente en una **función de utilidad cóncava** [Contexto general de RL]. Cuanto "más cóncava" sea la función, mayor será la aversión al riesgo del agente [Contexto general de RL]. La **medición de la aversión al riesgo** a menudo utiliza métricas derivadas de la segunda derivada de la función de utilidad, como el coeficiente de aversión absoluta al riesgo de Arrow-Pratt ($r_A(w) = -u''(w)/u'(w)$) o el coeficiente de aversión relativa al riesgo de Arrow-Pratt ($r_R(w) = -w \cdot u''(w)/u'(w)$) [Contexto general de RL]. Estas métricas permiten comparar el grado de aversión al riesgo entre diferentes individuos o para el mismo individuo en diferentes niveles de riqueza [Contexto general de RL].
+
+## Modelado de Preferencias por Múltiples Atributos
+
+Las fuentes **mencionan** que las preferencias pueden ser sobre un conjunto de resultados posiblemente complicados y ejemplifican con resultados que son pares (salario, empleo). También señalan que las funciones de utilidad pueden depender del tipo del agente además del resultado, y hablan de **independencia condicional de la utilidad**.
+
+***Información no proveniente de las fuentes:***
+Sin embargo, las fuentes **no proporcionan un marco general** para modelar formalmente preferencias sobre resultados que tienen múltiples características o **atributos** (por ejemplo, un coche descrito por su precio, color y rendimiento). El modelado de preferencias por múltiples atributos, a menudo llamado **Teoría de la Utilidad Multi-Atributo (MAUT)**, busca construir una función de utilidad sobre un vector de atributos basándose en las preferencias sobre cada atributo individual y las relaciones de preferencia entre combinaciones de atributos [Contexto general de RL]. Para construir una función de utilidad multi-atributo simple (como una suma ponderada de utilidades para cada atributo) se requieren **suposiciones de independencia** entre los atributos (como independencia preferencial o independencia de utilidad) [Contexto general de RL]. Si estas suposiciones se cumplen, la función de utilidad multi-atributo puede tomar formas específicas, como aditiva ($U(x_1, ..., x_n) = \sum w_i u_i(x_i)$) o multiplicativa, lo que simplifica enormemente la elicitation y el uso de las preferencias [Contexto general de RL]. La independencia condicional de la utilidad mencionada en una fuente está relacionada con estas ideas de independencia entre atributos (en este caso, el "tipo" del agente y el "resultado").
+
+En resumen, las funciones de utilidad proporcionan una base numérica para representar preferencias. La teoría de la utilidad esperada de von Neumann-Morgenstern, fundamentada en axiomas de consistencia, explica cómo los agentes racionales toman decisiones bajo incertidumbre maximizando la utilidad esperada, con la notable propiedad de que la función de utilidad es única hasta una transformación afín. Si bien las fuentes cubren estos aspectos teóricos y axiomáticos de la utilidad bajo incertidumbre, no detallan cómo medir la aversión al riesgo o un marco general para modelar preferencias sobre resultados con múltiples atributos.
