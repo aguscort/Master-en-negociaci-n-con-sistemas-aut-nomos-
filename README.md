@@ -89,18 +89,18 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Analizar los desafíos específicos de MARL, como la no-estacionariedad, la asignación de crédito de recompensa y la exploración.
     *   Evaluar y comparar el desempeño de diferentes algoritmos MARL en tareas de negociación o coordinación.
 *   **Temario Detallado (12 semanas):**
-    1.  **Semana 1:** Introducción al RL. El problema del agente. MDPs: estados, acciones, recompensas, transiciones. La función de valor y la función Q.
-    2.  **Semana 2:** Ecuaciones de Bellman. El problema de predicción y control. Value Iteration y Policy Iteration. Convergencia.
-    3.  **Semana 3:** RL sin modelo. Q-Learning. SARSA. La exploración-explotación: ε-greedy, decaimiento, Boltzmann.
-    4.  **Semana 4:** Introducción a MARL. Juegos Estocásticos (MMDPs) como formalismo. Tipos de entornos multiagente (cooperativo, competitivo, mixto).
-    5.  **Semana 5:** Desafíos en MARL. La no-estacionariedad. El problema del "Credit Assignment" multiagente. Escalabilidad.
-    6.  **Semana 6:** Algoritmos MARL Descentralizados. Independent Q-Learning (IQL): implementación y limitaciones.
-    7.  **Semana 7:** Deep RL Básico. Introducción a Deep Q-Networks (DQN). Experiencia Replay. Target Networks.
-    8.  **Semana 8:** Deep MARL Cooperativo (Centralized Training, Decentralized Execution). Value Decomposition Networks (VDN). QMIX: idea principal y arquitectura. Experiencia replay multiagente.
-    9.  **Semana 9:** Aprendizaje Basado en Políticas. Policy Gradient Theorem. Algoritmos REINFORCE. Introducción a Actor-Critic.
-    10. **Semana 10:** Actor-Critic Multiagente. Multi-Agent Deep Deterministic Policy Gradient (MADDPG): arquitectura y entrenamiento. Entornos continuos.
-    11. **Semana 11:** Estrategias de Entrenamiento Multiagente. Self-play. Fictitious play. Entrenamiento con población de agentes. Reward Shaping en MARL.
-    12. **Semana 12:** Evaluación y Benchmarking. Métricas de desempeño en MARL (recompensa agregada, tasa de éxito, equidad). Uso de entornos de benchmarking estándar (`PettingZoo`, `Melting Pot`).
+    1.  **[Semana 1](NSA102/semana01.md):** Introducción al RL. El problema del agente. MDPs: estados, acciones, recompensas, transiciones. La función de valor y la función Q.
+    2.  **[Semana 2](NSA102/semana02.md):** Ecuaciones de Bellman. El problema de predicción y control. Value Iteration y Policy Iteration. Convergencia.
+    3.  **[Semana 3](NSA102/semana03.md):** RL sin modelo. Q-Learning. SARSA. La exploración-explotación: ε-greedy, decaimiento, Boltzmann.
+    4.  **[Semana 4](NSA102/semana04.md):** Introducción a MARL. Juegos Estocásticos (MMDPs) como formalismo. Tipos de entornos multiagente (cooperativo, competitivo, mixto).
+    5.  **[Semana 5](NSA102/semana05.md):** Desafíos en MARL. La no-estacionariedad. El problema del "Credit Assignment" multiagente. Escalabilidad.
+    6.  **[Semana 6](NSA102/semana06.md):** Algoritmos MARL Descentralizados. Independent Q-Learning (IQL): implementación y limitaciones.
+    7.  **[Semana 7](NSA102/semana07.md):** Deep RL Básico. Introducción a Deep Q-Networks (DQN). Experiencia Replay. Target Networks.
+    8.  **[Semana 8](NSA102/semana08.md):** Deep MARL Cooperativo (Centralized Training, Decentralized Execution). Value Decomposition Networks (VDN). QMIX: idea principal y arquitectura. Experiencia replay multiagente.
+    9.  **[Semana 9](NSA102/semana09.md):** Aprendizaje Basado en Políticas. Policy Gradient Theorem. Algoritmos REINFORCE. Introducción a Actor-Critic.
+    10. **[Semana 10](NSA102/semana10.md):** Actor-Critic Multiagente. Multi-Agent Deep Deterministic Policy Gradient (MADDPG): arquitectura y entrenamiento. Entornos continuos.
+    11. **[Semana 11](NSA102/semana11.md):** Estrategias de Entrenamiento Multiagente. Self-play. Fictitious play. Entrenamiento con población de agentes. Reward Shaping en MARL.
+    12. **[Semana 12](NSA102/semana12.md):** Evaluación y Benchmarking. Métricas de desempeño en MARL (recompensa agregada, tasa de éxito, equidad). Uso de entornos de benchmarking estándar (`PettingZoo`, `Melting Pot`).
 *   **Bibliografía Esencial:**
     *   Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press. (Capítulos 1-8, 13).
     *   Shoham, Y., & Leyton-Brown, K. (2008). *Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations*. Cambridge University Press. (Capítulos sobre juegos estocásticos y aprendizaje multiagente).
