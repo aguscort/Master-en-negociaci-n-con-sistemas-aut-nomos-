@@ -50,17 +50,17 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Aplicar principios de diseño de mecanismos para inducir comportamientos estratégicos deseados en sistemas multiagente.
     *   Formalizar las preferencias y objetivos de los agentes utilizando funciones de utilidad, incluyendo la integración de factores no monetarios y éticos.
 *   **Temario Detallado (12 semanas):**
-    1.  **Semana 1:** Introducción y Repaso. Definición de un juego. Jugadores, acciones, resultados, pagos. Juegos en forma normal. Estrategias puras y mixtas.
-    2.  **Semana 2:** Dominancia y Eliminación Iterada. Estrategias estrictamente y débilmente dominadas. Relación con el equilibrio de Nash.
-    3.  **Semana 3:** Equilibrio de Nash. Definición formal. Cálculo en juegos de matriz pequeños. Interpretaciones del equilibrio de Nash. Conceptos básicos de juegos repetidos y el Folk Theorem.
-    4.  **Semana 4:** Juegos en Forma Extensiva. Árboles de juego. Información perfecta vs. imperfecta. Estrategias en forma extensiva.
-    5.  **Semana 5:** Juegos Dinámicos con Información Completa. Inducción hacia atrás. Equilibrios perfectos en subjuegos. Aplicaciones simples a negociaciones secuenciales.
-    6.  **Semana 6:** Juegos con Información Incompleta (Bayesiana). Tipos de jugadores. Creencias. Juegos en forma normal Bayesiana. Equilibrio Bayesiano de Nash.
-    7.  **Semana 7:** Juegos Secuenciales con Información Incompleta. Equilibrio Perfecto Bayesiano (concepto intuitivo). Aplicaciones a señalización (ej. calidad de un producto) y screening (ej. aversión al riesgo).
-    8.  **Semana 8:** Principios de Diseño de Mecanismos. Introducción al problema del diseñador. Objetivos (eficiencia, ingresos). El Principio de Revelación. Compatibilidad de Incentivos (Dominant Strategy IC vs. Bayesian Nash IC).
-    9.  **Semana 9:** Diseño de Subastas. Tipos comunes de subastas (primer precio, segundo precio, holandesa, inglesa). Análisis de sus propiedades de compatibilidad de incentivos y eficiencia. El Teorema de Equivalencia de Ingresos (bajo ciertas condiciones).
+    1.  **[Semana 1](NSA101/semana01.md)**: Introducción y Repaso. Definición de un juego. Jugadores, acciones, resultados, pagos. Juegos en forma normal. Estrategias puras y mixtas.
+    2.  **[Semana 2](NSA101/semana02.md):** Dominancia y Eliminación Iterada. Estrategias estrictamente y débilmente dominadas. Relación con el equilibrio de Nash.
+    3.  **[Semana 3](NSA102/semana03.md):** Equilibrio de Nash. Definición formal. Cálculo en juegos de matriz pequeños. Interpretaciones del equilibrio de Nash. Conceptos básicos de juegos repetidos y el Folk Theorem.
+    4.  **[Semana 4](NSA101/semana04.md):** Juegos en Forma Extensiva. Árboles de juego. Información perfecta vs. imperfecta. Estrategias en forma extensiva.
+    5.  **[Semana 5](NSA101/semana05.md):** Juegos Dinámicos con Información Completa. Inducción hacia atrás. Equilibrios perfectos en subjuegos. Aplicaciones simples a negociaciones secuenciales.
+    6.  **[Semana 6](NSA102/semana06.md):** Juegos con Información Incompleta (Bayesiana). Tipos de jugadores. Creencias. Juegos en forma normal Bayesiana. Equilibrio Bayesiano de Nash.
+    7.  **[Semana 7](NSA102/semana07.md):** Juegos Secuenciales con Información Incompleta. Equilibrio Perfecto Bayesiano (concepto intuitivo). Aplicaciones a señalización (ej. calidad de un producto) y screening (ej. aversión al riesgo).
+    8.  **[Semana 8](NSA101/semana08.md):** Principios de Diseño de Mecanismos. Introducción al problema del diseñador. Objetivos (eficiencia, ingresos). El Principio de Revelación. Compatibilidad de Incentivos (Dominant Strategy IC vs. Bayesian Nash IC).
+    9.  **[Semana 8](NSA101/semana09.md):** Diseño de Subastas. Tipos comunes de subastas (primer precio, segundo precio, holandesa, inglesa). Análisis de sus propiedades de compatibilidad de incentivos y eficiencia. El Teorema de Equivalencia de Ingresos (bajo ciertas condiciones).
     10. **Semana 10:** Mecanismos VCG. Diseño de mecanismos para asignación de bienes o tareas donde los valores son interdependientes. Mecanismos Vickrey-Clarke-Groves (VCG): concepto y cálculo. Desafíos computacionales y de implementación.
-    11. **Semana 11:** Funciones de Utilidad. Teoría de la Utilidad Esperada (von Neumann-Morgenstern). Axiomas. Medición de la aversión al riesgo. Modelado de preferencias por múltiples atributos.
+    11. **Semana 11[Semana 8](NSA102/semana08.md):** Funciones de Utilidad. Teoría de la Utilidad Esperada (von Neumann-Morgenstern). Axiomas. Medición de la aversión al riesgo. Modelado de preferencias por múltiples atributos.
     12. **Semana 12:** Utilidades Híbridas y Factores No Monetarios. Integración de objetivos no económicos en la función de utilidad de un agente (ej. tiempo, energía, reputación, alineación de valores). Introducción al vector de valores éticos (V) y su ponderación (α) en `U(a; θ, V)`.
 *   **Bibliografía Esencial:**
     *   Osborne, M. J., & Rubinstein, A. (1994). *A Course in Game Theory*. MIT Press.
