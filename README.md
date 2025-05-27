@@ -58,10 +58,10 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     6.  **[Semana 6](NSA102/semana06.md):** Juegos con Información Incompleta (Bayesiana). Tipos de jugadores. Creencias. Juegos en forma normal Bayesiana. Equilibrio Bayesiano de Nash.
     7.  **[Semana 7](NSA102/semana07.md):** Juegos Secuenciales con Información Incompleta. Equilibrio Perfecto Bayesiano (concepto intuitivo). Aplicaciones a señalización (ej. calidad de un producto) y screening (ej. aversión al riesgo).
     8.  **[Semana 8](NSA101/semana08.md):** Principios de Diseño de Mecanismos. Introducción al problema del diseñador. Objetivos (eficiencia, ingresos). El Principio de Revelación. Compatibilidad de Incentivos (Dominant Strategy IC vs. Bayesian Nash IC).
-    9.  **[Semana 8](NSA101/semana09.md):** Diseño de Subastas. Tipos comunes de subastas (primer precio, segundo precio, holandesa, inglesa). Análisis de sus propiedades de compatibilidad de incentivos y eficiencia. El Teorema de Equivalencia de Ingresos (bajo ciertas condiciones).
-    10. **Semana 10:** Mecanismos VCG. Diseño de mecanismos para asignación de bienes o tareas donde los valores son interdependientes. Mecanismos Vickrey-Clarke-Groves (VCG): concepto y cálculo. Desafíos computacionales y de implementación.
-    11. **Semana 11[Semana 8](NSA102/semana08.md):** Funciones de Utilidad. Teoría de la Utilidad Esperada (von Neumann-Morgenstern). Axiomas. Medición de la aversión al riesgo. Modelado de preferencias por múltiples atributos.
-    12. **Semana 12:** Utilidades Híbridas y Factores No Monetarios. Integración de objetivos no económicos en la función de utilidad de un agente (ej. tiempo, energía, reputación, alineación de valores). Introducción al vector de valores éticos (V) y su ponderación (α) en `U(a; θ, V)`.
+    9.  **[Semana 9](NSA101/semana09.md):** Diseño de Subastas. Tipos comunes de subastas (primer precio, segundo precio, holandesa, inglesa). Análisis de sus propiedades de compatibilidad de incentivos y eficiencia. El Teorema de Equivalencia de Ingresos (bajo ciertas condiciones).
+    10. **[Semana 10](NSA101/semana10.md):** Mecanismos VCG. Diseño de mecanismos para asignación de bienes o tareas donde los valores son interdependientes. Mecanismos Vickrey-Clarke-Groves (VCG): concepto y cálculo. Desafíos computacionales y de implementación.
+    11. **[Semana 11](NSA102/semana11.md):** Funciones de Utilidad. Teoría de la Utilidad Esperada (von Neumann-Morgenstern). Axiomas. Medición de la aversión al riesgo. Modelado de preferencias por múltiples atributos.
+    12. **[Semana 12](NSA101/semana12.md):** Utilidades Híbridas y Factores No Monetarios. Integración de objetivos no económicos en la función de utilidad de un agente (ej. tiempo, energía, reputación, alineación de valores). Introducción al vector de valores éticos (V) y su ponderación (α) en `U(a; θ, V)`.
 *   **Bibliografía Esencial:**
     *   Osborne, M. J., & Rubinstein, A. (1994). *A Course in Game Theory*. MIT Press.
     *   Myerson, R. B. (1991). *Game Theory: Analysis of Conflict*. Harvard University Press.
@@ -162,41 +162,46 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 ![Separador](imagen1.png)
 #### NSA-104: Protocolos Algorítmicos de Negociación
 
-*   **Créditos:** 6 ECTS
-*   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 12 semanas de docencia)
+*   **Créditos:** 6 ECTS  
+*   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 14 semanas de docencia)  
 *   **Pre-requisitos:** NSA-101, NSA-102 (concurrente).
 *   **Objetivos de Aprendizaje:**
-    *   Diseñar e implementar algoritmos para protocolos de negociación estructurados, como subastas, regateo y mercados de predicción.
-    *   Analizar las propiedades algorítmicas de estos protocolos (eficiencia computacional, estabilidad, robustez).
-    *   Evaluar el desempeño de los protocolos en simulaciones multiagente utilizando métricas económicas y algorítmicas.
-    *   Adaptar y diseñar protocolos para negociaciones multi-parte o en entornos complejos.
-*   **Temario Detallado (12 semanas):**
-    1.  **Semana 1:** Repaso de Diseño de Mecanismos y Subastas. IC, DSIC, BNIC. Subastas de precio único vs. múltiples ítems.
-    2.  **Semana 2:** Mecanismos Combinatorios. Subastas combinatorias: el problema de la determinación del ganador (computación). VCG para entornos combinatorios: propiedad de *truth-telling* y pago.
-    3.  **Semana 3:** Extensiones y Variantes de Subastas. Subastas online. Subastas adaptativas (ajustando reglas en tiempo real). Consideraciones de Sybil attacks.
-    4.  **Semana 4:** Negociación Bilateral Estructurada. Modelos de regateo alternado: el modelo de Rubinstein (con descuento). Unicidad y eficiencia del equilibrio.
-    5.  **Semana 5:** Protocolos de Concesión Iterativa. Modelos de negociación con un horizonte finito. Estrategias de oferta y aceptación. El rol del tiempo límite.
-    6.  **Semana 6:** Concesión Recíproca Multi-atributo. Negociación sobre múltiples dimensiones del acuerdo (precio, cantidad, calidad, fecha). Modelos de utilidad multi-atributo. Estrategias de concesión en espacios multi-dimensionales.
-    7.  **Semana 7:** Tácticas de Negociación Algorítmica. Estrategias de anclaje algorítmico. Técnicas de escalada y devaluación de la oferta. Detección de tácticas adversarias.
-    8.  **Semana 8:** Mercados de Predicción. Concepto y funcionamiento: mercados donde se negocian "apuestas" sobre eventos futuros. Agregación de información descentralizada.
-    9.  **Semana 9:** Diseño de Mercados de Predicción. Mecanismos de Market Scoring Rules (ej. Logarithmic Market Scoring Rule - LMSR). Propiedades de compatibilidad de incentivos.
-    10. **Semana 10:** Robustez y Manipulación en Mercados de Predicción. Cómo prevenir la manipulación por parte de agentes con información privilegiada o motivaciones estratégicas.
-    11. **Semana 11:** Protocolos para Negociaciones Multi-parte. Desafíos de coordinación y formación de coaliciones. Algoritmos para encontrar acuerdos eficientes en negociaciones con más de dos partes.
-    12. **Semana 12:** Simulación y Benchmarking de Protocolos. Uso de simulaciones multiagente a gran escala para comparar protocolos. Métricas de evaluación: eficiencia de Pareto, equidad (ej. Gini coefficient en resultados), resistencia a colusiones, velocidad de convergencia.
+    *   Diseñar e implementar algoritmos para protocolos de negociación estructurados en entornos complejos con información parcial, incertidumbre dinámica y estructuras de red.
+    *   Aplicar algoritmos de búsqueda y planificación (MCTS, POMCP) a problemas de negociación secuencial y decisión bajo incertidumbre.
+    *   Analizar las propiedades algorítmicas de protocolos de negociación (eficiencia computacional, estabilidad, robustez, escalabilidad).
+    *   Desarrollar algoritmos de negociación que escalen a gran número de agentes, múltiples atributos o entornos de alta dimensionalidad.
+    *   Integrar modelos de lenguaje y conocimiento estructurado para mejorar el desempeño estratégico en negociaciones complejas.
+*   **Temario Detallado (14 semanas):**
+    1. **Semana 1:** Fundamentos y Limitaciones de Modelos Clásicos. Revisión de negociación en entornos simples. Limitaciones de juegos en forma normal/extensiva y regateo clásico. Repaso de diseño de mecanismos: IC, DSIC, BNIC.
+    2. **Semana 2:** Negociación en Entornos Parcialmente Observables. POMDPs multiagente: representación de estado, observación, acción, transición, recompensa. Belief states y tracking de creencias.
+    3. **Semana 3:** Algoritmos para POMDPs en Negociación. Value Iteration para POMDPs y limitaciones computacionales. Point-Based Value Iteration (PBVI). Métodos de muestreo y Particle Filters para belief tracking.
+    4. **Semana 4:** Mecanismos Combinatorios y Subastas Complejas. Subastas combinatorias: problema de determinación del ganador. VCG para entornos combinatorios. Subastas online y adaptativas. Sybil attacks.
+    5. **Semana 5:** Negociación Bilateral y Multilateral Estructurada. Modelos de regateo alternado: modelo de Rubinstein con descuento. Extensión a negociaciones multi-parte: coordinación y formación de coaliciones.
+    6. **Semana 6:** Negociación en Redes (Networked Negotiation). Modelos de interacción estratégica en estructuras de red. Efectos de topología. Propagación de ofertas y algoritmos de coordinación distribuida.
+    7. **Semana 7:** Protocolos de Concesión Multi-atributo. Negociación sobre múltiples dimensiones: precio, cantidad, calidad, tiempo. Modelos de utilidad multi-atributo. Estrategias de concesión en espacios multi-dimensionales.
+    8. **Semana 8:** Algoritmos de Búsqueda en Árboles (MCTS). Monte Carlo Tree Search: selección, expansión, simulación, backpropagation. Aplicaciones en juegos con información perfecta e imperfecta.
+    9. **Semana 9:** MCTS Aplicado a Negociación Secuencial. Extensiones de MCTS para POMDPs (POMCP). Uso para planificar secuencias de ofertas y contra-ofertas en regateo complejo y subastas secuenciales.
+    10. **Semana 10:** Mercados de Predicción y Agregación de Información. Concepto y funcionamiento de mercados de predicción. Market Scoring Rules: Logarithmic Market Scoring Rule (LMSR). Agregación descentralizada de información.
+    11. **Semana 11:** Tácticas Algorítmicas y Robustez contra Manipulación. Estrategias de anclaje algorítmico. Técnicas de escalada y devaluación. Detección de tácticas adversarias. Prevención de manipulación y resistencia a colusiones.
+    12. **Semana 12:** Escalabilidad y Algoritmos Aproximados. Estrategias de descomposición para entornos de alta dimensionalidad. Negociación peer-to-peer vs centralizada. Algoritmos aproximados para muchos agentes.
+    13. **Semana 13:** Integración de Conocimiento y LLMs. Uso de LLMs para procesar información textual relevante. Integración con Knowledge Graphs y bases de datos. Modelos híbridos para estrategia de negociación.
+    14. **Semana 14:** Simulación, Benchmarking y Evaluación Comparativa. Simulaciones multiagente a gran escala. Métricas de evaluación: eficiencia de Pareto, equidad (coeficiente Gini), velocidad de convergencia, resistencia a manipulación.
 *   **Bibliografía Esencial:**
-    *   Nisan, N., Roughgarden, T., Tardos, E., & Vazirani, V. V. (Eds.). (2007). *Algorithmic Game Theory*. Cambridge University Press. (Enfoque en Mecanismos y Algoritmos).
-    *   Wooldridge, M. (2009). *An Introduction to MultiAgent Systems* (2nd ed.). Wiley. (Capítulos sobre negociación y coordinación).
-    *   Osborne, M. J., & Rubinstein, A. (1990). *Bargaining and Markets*. Academic Press. (Clásico sobre modelos de regateo).
-    *   Papers recientes sobre mercados de predicción y protocolos de negociación computacional.
+    *   Nisan, N., Roughgarden, T., Tardos, E., & Vazirani, V. V. (Eds.). (2007). *Algorithmic Game Theory*. Cambridge University Press. (Capítulos 9, 11, 13, 18).
+    *   Boutilier, C., Dean, T., & Hanks, S. (2006). "Decision-Theoretic Planning under Uncertainty." *Journal of AI Research*, 11, 1-94.
+    *   Osborne, M. J., & Rubinstein, A. (1990). *Bargaining and Markets*. Academic Press.
+    *   Browne, C., Powley, E., et al. (2012). "A Survey of Monte Carlo Tree Search Methods." *IEEE Trans. on Computational Intelligence and AI in Games*, 4(1), 1-43.
+    *   Papers recientes sobre negociación en redes, POMDPs multiagente, MCTS aplicado a negociación, y mercados de predicción (AAMAS, IJCAI, AAAI).
 *   **Evaluación:**
-    *   Problem sets (30%) - 3-4 conjuntos de problemas que combinan teoría y pequeños ejercicios de diseño algorítmico.
-    *   Proyecto comparativo (40%) - Implementación de 2-3 protocolos de negociación para un mismo escenario y análisis comparativo de su rendimiento en simulación.
-    *   Examen final (30%) - Evalúa la comprensión teórica de los protocolos y sus propiedades.
+    *   Problem sets (25%) - 4 conjuntos de problemas sobre POMDPs, algoritmos de búsqueda, escalabilidad y diseño de protocolos.
+    *   Proyecto MCTS para Negociación Compleja (40%) - Implementar MCTS/POMCP para resolver negociación secuencial con incertidumbre, comparando con al menos un protocolo estructurado alternativo.
+    *   xamen final teórico-algorítmico (35%) - Cubre conceptos teóricos, propiedades de algoritmos y diseño de protocolos robustos.
 *   **Laboratorio (2h/sem):**
-    *   Semanas 1-3: Implementación en Python de subastas combinatorias básicas y cálculo del ganador (para pocos ítems).
-    *   Semanas 4-7: Implementación de modelos de regateo (Rubinstein) y protocolos de concesión multi-atributo. Simulación de agentes con diferentes estrategias de concesión.
-    *   Semanas 8-10: Implementación de un mecanismo de Market Scoring Rule simple. Simulación de un mercado de predicción con agentes sintéticos.
-    *   Semanas 11-12: Configuración de simulaciones multiagente para comparar protocolos de negociación multi-parte o en red. Análisis de métricas. Uso de librerías de simulación multiagente (`mesa`, `paho-mqtt` para comunicación).
+    *   Semanas 1-3: Configuración de entornos POMDP multiagente usando `Gymnasium` y `PettingZoo`. Implementación de belief tracking básico. Simulación de negociación con información parcial.
+    *   Semanas 4-6: Implementación de subastas combinatorias básicas y modelos de regateo Rubinstein. Algoritmos de negociación en redes usando `networkx`. Propagación de acuerdos y coordinación distribuida.
+    *   Semanas 7-10: Implementación de MCTS básico y adaptación a negociación secuencial. Experimentación con POMCP. Implementación de Market Scoring Rules y simulación de mercados de predicción.
+    *   Semanas 11-14: Desarrollo de tácticas algorítmicas avanzadas. Integración de APIs de LLMs para procesamiento de información contextual. Configuración de simulaciones multiagente comparativas y análisis de métricas de rendimiento.
+
 
 
 ![Separador](imagen1.png)
@@ -223,12 +228,14 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     10. **Semana 10:** Gestión de Información Privada y Concesiones. Cómo diseñar prompts para que el LLM gestione información que no debe revelar. Generación de concesiones graduales y estratégicas.
     11. **Semana 11:** Coherencia y Consistencia Estratégica. Asegurar que las respuestas del LLM se alineen con la estrategia global del agente (definida por el motor de decisión). Manejo de alucinaciones en el diálogo de negociación.
     12. **Semana 12:** Integración y Evaluación de Agentes Conversacionales. Conectar el módulo LLM con el motor de decisión (basado en Teoría de Juegos/RL). Métricas de evaluación del diálogo (fluidez, coherencia, éxito de la negociación, credibilidad). Detección básica de engaño o manipulación en el lenguaje.
+
 *   **Bibliografía Esencial:**
     *   Vaswani et al. (2017). *Attention Is All You Need*. NeurIPS.
     *   Lewis, M., Yin, Y., Batra, D., Zitnick, C. L., & Parikh, D. (2017). *Deal or No Deal? End-to-End Learning for Negotiation Dialogues*. ICLR.
     *   Wei, J., Zhou, X., Schuurmans, D., & Le, Q. V. (2022). *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*. arXiv preprint arXiv:2201.11903.
     *   Jurafsky, D., & Martin, J. H. (2023). *Speech and Language Processing* (3rd ed. draft). (Capítulos relevantes sobre modelos de lenguaje, diálogo).
     *   Documentación y research papers de modelos específicos (GPT-4, Gemini, Claude, Llama).
+
 *   **Evaluación:**
     *   Talleres de Prompting (30%) - 4-5 entregas prácticas de prompts diseñados para tareas de negociación, con análisis de las respuestas de los LLMs.
     *   Implementación Módulo Conversacional (40%) - Desarrollo de un pipeline básico que use un LLM para procesar y generar turnos de diálogo en un escenario de negociación simulado simple.
@@ -238,6 +245,7 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
     *   Semanas 5-8: Diseño y prueba intensiva de prompts. Comparación de resultados con diferentes técnicas (zero-shot vs few-shot vs CoT). Uso de herramientas para evaluar la calidad de la generación de texto.
     *   Semanas 9-11: Desarrollo del módulo conversacional: parsing de texto, extracción de información clave (ofertas), integración con un estado interno de la negociación en Python. Generación de texto condicionado al estado y a la estrategia.
     *   Semana 12: Trabajo en el proyecto final: conexión con un motor de decisión simple, ejecución de simulaciones de negociación con el agente completo, evaluación de su desempeño conversacional y estratégico.
+
 
 ---
 
@@ -317,41 +325,51 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 
 
 ![Separador](imagen1.png)
-#### NSA-108: Algoritmos Avanzados para la Negociación en Entornos Complejos
+#### NSA-108: Programación avanzada con LLMs
 
-*   **Créditos:** 6 ECTS
-*   **Dedicación:** 4h teoría + 2h laboratorio por semana
-*   **Pre-requisitos:** NSA-104, NSA-102.
+*   **Créditos:** 6 ECTS  
+*   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 14 semanas de docencia)  
+*   **Pre-requisitos:** Programación Avanzada, Fundamentos de IA, Procesamiento de Lenguaje Natural básico  
 *   **Objetivos de Aprendizaje:**
-    *   Diseñar estrategias de negociación para entornos con información parcial, incertidumbre dinámica, o estructura de red compleja.
-    *   Aplicar algoritmos de búsqueda y planificación (ej. MCTS) a problemas de regateo secuencial y decisión bajo incertidumbre.
-    *   Desarrollar algoritmos de negociación que escalen a un gran número de agentes o ítems, o en entornos con alta dimensionalidad.
-    *   Integrar modelos de lenguaje o conocimiento del mundo (ontologías, bases de datos) para mejorar el desempeño estratégico en entornos complejos.
-*   **Temario (12 semanas):**
-    1.  **Semana 1:** Revisión de Negociación en Entornos Simples. Limitaciones de los modelos clásicos (juegos en forma normal/extensiva, regateo simple).
-    2.  **Semana 2:** Negociación en Entornos Parcialmente Observables. POMDPs multiagente: representación del estado, observación, acción, transición, recompensa. Belief states.
-    3.  **Semana 3:** Algoritmos para POMDPs (I). Desafíos computacionales. Value Iteration para POMDPs (exacta y sus limitaciones).
-    4.  **Semana 4:** Algoritmos para POMDPs (II). Aproximaciones: Point-Based Value Iteration (PBVI). Métodos de muestreo (Particle Filters para belief tracking).
-    5.  **Semana 5:** Negociación en Redes (Networked Negotiation). Modelos de interacción estratégica en estructuras de red (grafos). Efectos de la topología en la negociación.
-    6.  **Semana 6:** Algoritmos de Negociación en Redes. Propagación de ofertas y acuerdos en redes. Algoritmos de coordinación y formación de coaliciones en estructuras de red.
-    7.  **Semana 7:** Algoritmos de Búsqueda en Árboles (MCTS). Principios de MCTS: selección, expansión, simulación, backpropagation. Aplicaciones en juegos con información perfecta (Go, Ajedrez).
-    8.  **Semana 8:** MCTS para Juegos con Incertidumbre. Extensiones de MCTS para POMDPs y juegos estocásticos (ej. Partially Observable Monte Carlo Planning - POMCP).
-    9.  **Semana 9:** Aplicación de MCTS a la Negociación. Uso de MCTS para planificar secuencias de ofertas y contra-ofertas en juegos de regateo complejos o subastas secuenciales.
-    10. **Semana 10:** Búsqueda y Planificación para Agentes Negociadores. Otros algoritmos de búsqueda y planificación (ej. Alpha-Beta con heurísticas, búsqueda basada en heurísticas específicas de negociación).
-    11. **Semana 11:** Escalabilidad de Algoritmos de Negociación. Estrategias de descomposición. Negociación peer-to-peer vs. centralizada. Algoritmos aproximados para entornos de alta dimensionalidad o con muchos agentes.
-    12. **Semana 12:** Integración de Conocimiento y LLMs. Uso de LLMs para procesar información textual relevante para el entorno complejo. Integración con Knowledge Graphs o bases de datos para informar la toma de decisiones estratégicas.
+    *   Diseñar y implementar pipelines complejos de LLMs que van más allá del prompting básico, utilizando control de flujo, restricciones semánticas y orquestación multi-llamada
+    *   Evaluar y seleccionar frameworks de programación de LLMs (LMQL, DSPy, SGLang, LLMCompiler) según requisitos específicos de rendimiento, costo y funcionalidad
+    *   Optimizar automáticamente prompts y cadenas de razonamiento mediante técnicas de meta-aprendizaje y compilación declarativa
+    *   Implementar sistemas de generación controlada con restricciones sintácticas y semánticas aplicadas durante la decodificación
+    *   Desarrollar aplicaciones multi-agente escalables con paralelización inteligente y manejo eficiente de recursos computacionales
+*   **Temario Detallado (12 semanas):**
+    1.  **Semana 1: Introducción y Fundamentos**  Evolución del prompting a la programación estructurada. Definición de Language Model Programming (LMP). Diferencias con prompting tradicional. Componentes básicos: texto, scripting, control de flujo, restricciones. Casos de uso industriales y limitaciones del enfoque convencional.
+    2.  **Semana 2: Arquitecturas de Programas LLM**  Anatomía de un programa LLM: entrada, procesamiento, salida. Patrones de orquestación: secuencial, paralelo, condicional, iterativo. Gestión de contexto y estado en aplicaciones multi-llamada. Principios de composabilidad y modularidad. Variables, holes y referencias entre llamadas.
+    3.  **Semana 3: Restricciones y Generación Controlada**  Tipos de restricciones: sintácticas (formato, longitud), semánticas (contenido, coherencia), pragmáticas (intención, contexto). Técnicas de enmascaramiento a nivel de token. Evaluación eager vs lazy. Gramáticas formales para estructuración de salidas. Trade-offs entre control y creatividad.
+    4.  **Semana 4: LMQL - Language Model Query Language**  Sintaxis declarativa e imperativa. Definición de consultas con holes `[variable]` y referencias `{variable}`. Cláusula `where` para restricciones. Métodos de decodificación (argmax, beam, sample). Control de flujo con Python embebido. Optimizaciones para minimizar llamadas al modelo.
+    5.  **Semana 5: DSPy - Programación Declarativa Auto-optimizable**  Módulos declarativos vs templates hardcodeados. Firmas de lenguaje natural como especificaciones. Grafos de transformación de texto. Sistema de compilación automática. Optimización de métricas objetivo. Técnicas de few-shot learning automático. Integración con pipelines de ML.
+    6.  **Semana 6: SGLang - Structured Generation Language**  Arquitectura frontend/backend. Primitivas de generación: `gen`, `select`, `fork`, `join`. Control explícito de paralelismo. Manejo de multimodalidad (`image`, `video`, `audio`). Optimizaciones de runtime: batching dinámico, gestión de memoria, prefetching. Integración como backend para frameworks de alto nivel.
+    7.  **Semana 7: LLMCompiler y Orquestación Paralela**  Descomposición de tareas en DAGs (Directed Acyclic Graphs). Análisis de dependencias y paralelización automática. Componentes: Planner, Task Fetcher, Executor. Optimización de latencia y throughput. Manejo de fallos y estrategias de recuperación. Comparación con enfoques secuenciales.
+    8.  **Semana 8: Análisis Comparativo de Frameworks**  Criterios de evaluación: expresividad, rendimiento, facilidad de uso, ecosistema. Benchmarks estándar y métricas de comparación. LMQL vs DSPy vs SGLang vs LLMCompiler: fortalezas y casos de uso. Interoperabilidad y migración. Frameworks emergentes: Guidance, Outlines, LangChain.
+    9.  **Semana 9: Optimización y Eficiencia**  Métricas de rendimiento: latencia, throughput, costo por token, calidad de salida. Técnicas de caching y reutilización de computación. Estrategias de batching y paralelización. Análisis de complejidad computacional. Optimización de prompts para reducir tokens. Trade-offs rendimiento-precisión.
+    10.  **Semana 10: Sistemas Multi-Agente con LLMs**  Patrones de comunicación inter-agente. Coordinación distribuida y protocolos de consenso. Especialización de roles y división de tareas. Gestión de conflictos y negociación automática. Escalabilidad horizontal. Aplicaciones: traducción colaborativa, sistemas de recomendación multi-perspectiva.
+    11.  **Semana 11: Evaluación y Testing de Sistemas LLM**  Métricas de calidad: coherencia, factualidad, relevancia, consistencia. Testing automatizado y suites de regresión. Generación automática de casos de prueba. Benchmarking comparativo entre implementaciones. Detección de degradación de rendimiento. A/B testing para optimización de prompts.
+    12.  **Semana 12: Aplicaciones Empresariales y Deployment**  Arquitecturas de microservicios con LLMs. Gestión de configuración y versionado de prompts. Monitoreo, logging y observabilidad en producción. Escalado automático y load balancing. Consideraciones de costo y presupuesto. Integración con sistemas legacy.
+    13.  **Semana 13: Ética, Sesgo y Seguridad**  Detección y mitigación de sesgos algorítmicos en generación. Técnicas de red-teaming y adversarial testing. Filtros de contenido y moderación automática. Transparencia e interpretabilidad de decisiones. Consideraciones de privacidad y protección de datos. Marco regulatorio (AI Act, GDPR).
+    14.  **Semana 14: Tendencias Futuras y Proyecto Final**  Integración con modelos multimodales avanzados. Técnicas de fine-tuning específico para programación. Edge computing y inferencia local. Presentación y evaluación de proyectos finales. Roadmaps tecnológicos y oportunidades de investigación.
 
-*   **Bibliografía:** Boutilier et al. (2006). *POMDPs: Theory and Applications*. Kearns et al. (2001). *Mechanism Design for Search Engines*. Browne et al. (2012). *A Survey of Monte Carlo Tree Search Methods*. Papers recientes sobre negociación en redes, POMDPs multiagente, y aplicación de MCTS/planificación a la negociación (ej. de conferencias como AAMAS, IJCAI, AAAI).
+*   **Bibliografía Esencial:**
+    *   Beurer-Kellner, L., Fischer, M., & Vechev, M. (2023). "Prompting Is Programming: A Query Language for Large Language Models." *PLDI 2023*.
+    *   Khattab, O., Singhvi, A., Wang, P., et al. (2023). "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines." *arXiv:2310.03714*.
+    *   Zheng, L., Yin, L., Xie, Z., et al. (2023). "SGLang: Structured Generation Language for Large Language Models." *arXiv:2312.07104*.
+    *   Kim, G., Bae, S., Kang, D., et al. (2024). "LLMCompiler: An LLM Compiler for Parallel Function Calling." *ICML 2024*.
+    *   Weng, L. (2024). *Programming Large Language Models: A Practical Guide*. O'Reilly Media. (Capítulos 3, 5, 8, 12).
 
 *   **Evaluación:**
-    *   Proyecto MCTS para Negociación (40%) - Implementar un algoritmo MCTS (o una variante POMCP simplificada) para resolver un juego de negociación secuencial simple con incertidumbre.
-    *   Problem sets (30%) - 3-4 conjuntos de problemas sobre POMDPs, algoritmos de búsqueda, y escalabilidad.
-    *   Examen final (30%) - Cubre conceptos teóricos y algorítmicos.
+    *   **Problem sets (30%)** - 4 tareas prácticas que combinan implementación de algoritmos y análisis de rendimiento en diferentes frameworks.
+    *   **Proyecto "Sistema Multi-Framework" (35%)** - Implementación de una aplicación compleja que integre al menos 2 frameworks diferentes, con análisis comparativo de rendimiento y costo.
+    *   **Examen final teórico-práctico (35%)** - Diseño de arquitecturas LLM, optimización de prompts, y resolución de problemas de programación estructurada.
 *   **Laboratorio (2h/sem):**
-    *   Semanas 1-4: Configuración de entornos de simulación multiagente con información parcial (usando frameworks como `Gymnasium` con wrappers para POMDPs o `PettingZoo` en modos observados parcialmente). Implementación de belief tracking básico.
-    *   Semanas 5-7: Implementación de algoritmos de negociación en estructuras de red (usando librerías como `networkx`). Simulación de propagación de acuerdos.
-    *   Semanas 8-11: Implementación de algoritmos de búsqueda en árbol (ej. MCTS básico en Python). Adaptación a juegos de negociación secuencial. Experimentación con heurísticas de evaluación.
-    *   Semana 12: Experimentación con la integración de conocimiento externo o procesamiento de texto (usando APIs de LLMs) para informar la estrategia de un agente en un entorno complejo simulado.
+    *   **Semanas 1-3:** Configuración de entornos de desarrollo. Implementación de pipelines básicos con llamadas múltiples. Ejercicios de prompting estructurado vs tradicional.
+    *   **Semanas 4-5:** Desarrollo con LMQL. Implementación de consultas con restricciones complejas. Optimización de consultas y análisis de rendimiento.
+    *   **Semanas 6-7:** Programación declarativa con DSPy. Creación de módulos auto-optimizables. Comparación de métricas antes/después de compilación automática.
+    *   **Semanas 8-9:** Desarrollo con SGLang. Implementación de sistemas paralelos y multimodales. Optimización de runtime y gestión de recursos.
+    *   **Semanas 10-11:** Orquestación con LLMCompiler. Diseño de DAGs complejos. Implementación de sistemas multi-agente con coordinación automática.
+    *   **Semanas 12-14:** Integración de frameworks. Desarrollo del proyecto final. Testing, debugging y optimización de aplicaciones complejas. Preparación de demostraciones.
 
 
 ![Separador](imagen1.png)
