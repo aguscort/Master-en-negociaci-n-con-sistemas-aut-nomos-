@@ -276,7 +276,12 @@
     11. **Semana 11:** Integración de Modelado de Oponentes en la Estrategia de Negociación. Cómo usar la inferencia de la "mente" del oponente para adaptar la propia estrategia (ej. elegir la próxima oferta, decidir cuándo ceder).
     12. **Semana 12:** Casos de Estudio y Temas Avanzados. IRL en juegos complejos, modelado de agentes heterogéneos, detección de engaño mediante modelado de intenciones.
 
-*   **Bibliografía:** Ng & Russell (2000). *Algorithms for Inverse Reinforcement Learning*. Abbeel & Ng (2004). *Apprenticeship Learning via Inverse Reinforcement Learning*. Ziebart et al. (2008). *Maximum Causal Entropy IRL*. Baker et al. (2009). *Goal Inference as Inverse Planning*. Papers recientes sobre IRL, Cooperative IRL, ToM computacional en MARL y negociación.
+*   **Bibliografía:**
+   *   Ng & Russell (2000). *Algorithms for Inverse Reinforcement Learning*.
+   *   Abbeel & Ng (2004). *Apprenticeship Learning via Inverse Reinforcement Learning*.
+   *   Ziebart et al. (2008). *Maximum Causal Entropy IRL*.
+   *   Baker et al. (2009). *Goal Inference as Inverse Planning*.
+   *   Papers recientes sobre IRL, Cooperative IRL, ToM computacional en MARL y negociación.
 
 *   **Evaluación:**
     *   Implementación de Algoritmo IRL (40%) - Implementar un algoritmo IRL (ej. Max Entropy IRL o BIRL simplificado) en un entorno de simulación simple.
