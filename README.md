@@ -27,6 +27,11 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
 
 *   [**Año 1 (60 ECTS): Fundamentos Teórico-Técnicos e Interdisciplinarios**](primer-año.md)
     *   Cuatrimestre 1 (Q1): Pilares Cuantitativos y de IA (30 ECTS)
+        *   NSA-101: Teoría de Juegos para Agentes Autónomos
+        *   NSA-102: Aprendizaje por Refuerzo Multiagente (MARL)
+        *   NSA-103: Psicología e Interacción Humano-Agente en Negociación
+        *   NSA-104: Teoría del Lenguaje, Semiótica y Análisis del Discurso
+        *   NSA-105: Grandes Modelos de Lenguaje y Diálogo Estratégico
     *   Cuatrimestre 2 (Q2): Interacción, Cognición y Diseño (30 ECTS)
 *   [**Año 2 (60 ECTS): Aplicación, Investigación y Especialización**](segundo-año.md)
     *   Cuatrimestre 3 (Q3): Sistemas Avanzados y Aplicaciones (30 ECTS)
