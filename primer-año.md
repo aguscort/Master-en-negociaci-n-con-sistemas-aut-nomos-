@@ -124,48 +124,53 @@
 
 
 ![Separador](imagen1.png)
-### NSA-104: Protocolos Algorítmicos de Negociación
+# NSA203 – Teoría del Lenguaje, Semiótica y Análisis del Discurso  
 
-*   **Créditos:** 6 ECTS  
-*   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 14 semanas de docencia)  
-*   **Pre-requisitos:** NSA-101, NSA-102 (concurrente).
-*   **Objetivos de Aprendizaje:**
-    *   Diseñar e implementar algoritmos para protocolos de negociación estructurados en entornos complejos con información parcial, incertidumbre dinámica y estructuras de red.
-    *   Aplicar algoritmos de búsqueda y planificación (MCTS, POMCP) a problemas de negociación secuencial y decisión bajo incertidumbre.
-    *   Analizar las propiedades algorítmicas de protocolos de negociación (eficiencia computacional, estabilidad, robustez, escalabilidad).
-    *   Desarrollar algoritmos de negociación que escalen a gran número de agentes, múltiples atributos o entornos de alta dimensionalidad.
-    *   Integrar modelos de lenguaje y conocimiento estructurado para mejorar el desempeño estratégico en negociaciones complejas.
-*   **Temario Detallado (14 semanas):**
-    1. **Semana 1:** Fundamentos y Limitaciones de Modelos Clásicos. Revisión de negociación en entornos simples. Limitaciones de juegos en forma normal/extensiva y regateo clásico. Repaso de diseño de mecanismos: IC, DSIC, BNIC.
-    2. **Semana 2:** Negociación en Entornos Parcialmente Observables. POMDPs multiagente: representación de estado, observación, acción, transición, recompensa. Belief states y tracking de creencias.
-    3. **Semana 3:** Algoritmos para POMDPs en Negociación. Value Iteration para POMDPs y limitaciones computacionales. Point-Based Value Iteration (PBVI). Métodos de muestreo y Particle Filters para belief tracking.
-    4. **Semana 4:** Mecanismos Combinatorios y Subastas Complejas. Subastas combinatorias: problema de determinación del ganador. VCG para entornos combinatorios. Subastas online y adaptativas. Sybil attacks.
-    5. **Semana 5:** Negociación Bilateral y Multilateral Estructurada. Modelos de regateo alternado: modelo de Rubinstein con descuento. Extensión a negociaciones multi-parte: coordinación y formación de coaliciones.
-    6. **Semana 6:** Negociación en Redes (Networked Negotiation). Modelos de interacción estratégica en estructuras de red. Efectos de topología. Propagación de ofertas y algoritmos de coordinación distribuida.
-    7. **Semana 7:** Protocolos de Concesión Multi-atributo. Negociación sobre múltiples dimensiones: precio, cantidad, calidad, tiempo. Modelos de utilidad multi-atributo. Estrategias de concesión en espacios multi-dimensionales.
-    8. **Semana 8:** Algoritmos de Búsqueda en Árboles (MCTS). Monte Carlo Tree Search: selección, expansión, simulación, backpropagation. Aplicaciones en juegos con información perfecta e imperfecta.
-    9. **Semana 9:** MCTS Aplicado a Negociación Secuencial. Extensiones de MCTS para POMDPs (POMCP). Uso para planificar secuencias de ofertas y contra-ofertas en regateo complejo y subastas secuenciales.
-    10. **Semana 10:** Mercados de Predicción y Agregación de Información. Concepto y funcionamiento de mercados de predicción. Market Scoring Rules: Logarithmic Market Scoring Rule (LMSR). Agregación descentralizada de información.
-    11. **Semana 11:** Tácticas Algorítmicas y Robustez contra Manipulación. Estrategias de anclaje algorítmico. Técnicas de escalada y devaluación. Detección de tácticas adversarias. Prevención de manipulación y resistencia a colusiones.
-    12. **Semana 12:** Escalabilidad y Algoritmos Aproximados. Estrategias de descomposición para entornos de alta dimensionalidad. Negociación peer-to-peer vs centralizada. Algoritmos aproximados para muchos agentes.
-    13. **Semana 13:** Integración de Conocimiento y LLMs. Uso de LLMs para procesar información textual relevante. Integración con Knowledge Graphs y bases de datos. Modelos híbridos para estrategia de negociación.
-    14. **Semana 14:** Simulación, Benchmarking y Evaluación Comparativa. Simulaciones multiagente a gran escala. Métricas de evaluación: eficiencia de Pareto, equidad (coeficiente Gini), velocidad de convergencia, resistencia a manipulación.
-*   **Bibliografía Esencial:**
-    *   Nisan, N., Roughgarden, T., Tardos, E., & Vazirani, V. V. (Eds.). (2007). *Algorithmic Game Theory*. Cambridge University Press. (Capítulos 9, 11, 13, 18).
-    *   Boutilier, C., Dean, T., & Hanks, S. (2006). "Decision-Theoretic Planning under Uncertainty." *Journal of AI Research*, 11, 1-94.
-    *   Osborne, M. J., & Rubinstein, A. (1990). *Bargaining and Markets*. Academic Press.
-    *   Browne, C., Powley, E., et al. (2012). "A Survey of Monte Carlo Tree Search Methods." *IEEE Trans. on Computational Intelligence and AI in Games*, 4(1), 1-43.
-    *   Papers recientes sobre negociación en redes, POMDPs multiagente, MCTS aplicado a negociación, y mercados de predicción (AAMAS, IJCAI, AAAI).
-*   **Evaluación:**
-    *   Problem sets (25%) - 4 conjuntos de problemas sobre POMDPs, algoritmos de búsqueda, escalabilidad y diseño de protocolos.
-    *   Proyecto MCTS para Negociación Compleja (40%) - Implementar MCTS/POMCP para resolver negociación secuencial con incertidumbre, comparando con al menos un protocolo estructurado alternativo.
-    *   xamen final teórico-algorítmico (35%) - Cubre conceptos teóricos, propiedades de algoritmos y diseño de protocolos robustos.
-*   **Laboratorio (2h/sem):**
-    *   Semanas 1-3: Configuración de entornos POMDP multiagente usando `Gymnasium` y `PettingZoo`. Implementación de belief tracking básico. Simulación de negociación con información parcial.
-    *   Semanas 4-6: Implementación de subastas combinatorias básicas y modelos de regateo Rubinstein. Algoritmos de negociación en redes usando `networkx`. Propagación de acuerdos y coordinación distribuida.
-    *   Semanas 7-10: Implementación de MCTS básico y adaptación a negociación secuencial. Experimentación con POMCP. Implementación de Market Scoring Rules y simulación de mercados de predicción.
-    *   Semanas 11-14: Desarrollo de tácticas algorítmicas avanzadas. Integración de APIs de LLMs para procesamiento de información contextual. Configuración de simulaciones multiagente comparativas y análisis de métricas de rendimiento.
-
+*   ***ECTS**: 6  
+*   **Semestre**: Segundo año, segundo semestre  
+*   **Tipo**: Obligatoria
+*   **escripción**: La asignatura introduce conceptos clave de la teoría del lenguaje, la semiótica y el análisis del discurso con el objetivo de aplicarlos al diseño, evaluación y control de sistemas autónomos inteligentes. Se abordan las implicaciones prácticas del uso del lenguaje en entornos de interacción humano-máquina, con atención especial a la construcción de significado, la gestión del contexto y la detección de sesgos discursivos.
+## Objetivos
+- Comprender los principios básicos de la semiótica y del análisis del discurso.
+- Analizar el papel del lenguaje en la construcción simbólica de categorías utilizadas por sistemas inteligentes.
+- Aplicar herramientas de análisis crítico a las interacciones entre humanos y sistemas autónomos.
+- Identificar problemas semánticos, ideológicos o pragmáticos en interfaces lingüísticas automatizadas.
+## Contenidos semanales
+**Semana 1 – Introducción a la teoría del signo**  
+Principios de semiótica estructural y pragmática. Diferencia entre representación simbólica, icónica e indicial. Relevancia en entornos computacionales.
+**Semana 2 – Códigos, significación y estructuras de interpretación**  
+Códigos culturales y técnicos. Niveles de codificación en la comunicación hombre-máquina. Limitaciones de los modelos actuales de significación en IA.
+**Semana 3 – Semiótica visual y diseño de interfaces**  
+Conceptos básicos para el análisis de imágenes, símbolos y señales en interfaces autónomas. Multimodalidad y coherencia intersemiótica.
+**Semana 4 – Discurso como práctica regulada**  
+Discurso técnico y discursos normativos. Función del lenguaje en la producción de reglas, categorías y procedimientos en sistemas autónomos.
+**Semana 5 – Fundamentos del Análisis Crítico del Discurso (ACD)**  
+Herramientas básicas del ACD aplicadas a contextos tecnológicos: ideología, poder, jerarquización semántica, presuposiciones.
+**Semana 6 – Géneros discursivos y actos de habla en sistemas automáticos**  
+Taxonomías funcionales del lenguaje. Adaptación de actos de habla en asistentes conversacionales. Diseño de géneros comunicativos para máquinas.
+**Semana 7 – Representación social y sesgo discursivo**  
+Análisis de cómo los sistemas reproducen o amplifican representaciones sociales. Categorización automática y efectos simbólicos.
+**Semana 8 – Narrativas técnicas y framing computacional**  
+Lenguaje narrativo en descripciones de procesos, decisiones y justificaciones. Marcos cognitivos en la generación automática de texto.
+**Semana 9 – Modelos de lenguaje y problemas de representación**  
+Crítica semiótica a los LLMs. Ambigüedad, polisemia, contexto. Relación entre estructura lingüística y representación estadística.
+**Semana 10 – Interacción discursiva humano-máquina**  
+Características específicas de la comunicación con sistemas autónomos: coherencia local, turnos de habla, recuperación de contexto, resolución de ambigüedades.
+**Semana 11 – Ética del lenguaje automatizado**  
+Riesgos asociados a la generación de lenguaje por máquinas. Revisión de casos con sesgos, exclusiones o efectos no deseados en entornos reales.
+**Semana 12 – Taller final: análisis aplicado**  
+Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación de herramientas vistas. Evaluación crítica de resultados.
+## Evaluación
+- Trabajo de análisis aplicado: 40%  
+- Ensayo teórico orientado a aplicación técnica: 30%  
+- Participación en talleres y actividades prácticas: 30%
+## Bibliografía básica
+- Saussure, F. de (1916). *Curso de lingüística general*  
+- Peirce, C. S. (1958). *Collected Papers*  
+- Fairclough, N. (1995). *Critical Discourse Analysis*  
+- van Dijk, T. A. (1997). *Discourse Studies*  
+- Kress, G., & van Leeuwen, T. (2001). *Multimodal Discourse*  
+- Crawford, K. (2021). *Atlas of AI*  
 
 
 ![Separador](imagen1.png)
@@ -214,6 +219,49 @@
 ---
 
 ## CUATRIMESTRE 2 (Q2): Interacción, Cognición y Diseño (30 ECTS)
+![Separador](imagen1.png)
+### NSA-104: Protocolos Algorítmicos de Negociación
+
+*   **Créditos:** 6 ECTS  
+*   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 14 semanas de docencia)  
+*   **Pre-requisitos:** NSA-101, NSA-102 (concurrente).
+*   **Objetivos de Aprendizaje:**
+    *   Diseñar e implementar algoritmos para protocolos de negociación estructurados en entornos complejos con información parcial, incertidumbre dinámica y estructuras de red.
+    *   Aplicar algoritmos de búsqueda y planificación (MCTS, POMCP) a problemas de negociación secuencial y decisión bajo incertidumbre.
+    *   Analizar las propiedades algorítmicas de protocolos de negociación (eficiencia computacional, estabilidad, robustez, escalabilidad).
+    *   Desarrollar algoritmos de negociación que escalen a gran número de agentes, múltiples atributos o entornos de alta dimensionalidad.
+    *   Integrar modelos de lenguaje y conocimiento estructurado para mejorar el desempeño estratégico en negociaciones complejas.
+*   **Temario Detallado (14 semanas):**
+    1. **Semana 1:** Fundamentos y Limitaciones de Modelos Clásicos. Revisión de negociación en entornos simples. Limitaciones de juegos en forma normal/extensiva y regateo clásico. Repaso de diseño de mecanismos: IC, DSIC, BNIC.
+    2. **Semana 2:** Negociación en Entornos Parcialmente Observables. POMDPs multiagente: representación de estado, observación, acción, transición, recompensa. Belief states y tracking de creencias.
+    3. **Semana 3:** Algoritmos para POMDPs en Negociación. Value Iteration para POMDPs y limitaciones computacionales. Point-Based Value Iteration (PBVI). Métodos de muestreo y Particle Filters para belief tracking.
+    4. **Semana 4:** Mecanismos Combinatorios y Subastas Complejas. Subastas combinatorias: problema de determinación del ganador. VCG para entornos combinatorios. Subastas online y adaptativas. Sybil attacks.
+    5. **Semana 5:** Negociación Bilateral y Multilateral Estructurada. Modelos de regateo alternado: modelo de Rubinstein con descuento. Extensión a negociaciones multi-parte: coordinación y formación de coaliciones.
+    6. **Semana 6:** Negociación en Redes (Networked Negotiation). Modelos de interacción estratégica en estructuras de red. Efectos de topología. Propagación de ofertas y algoritmos de coordinación distribuida.
+    7. **Semana 7:** Protocolos de Concesión Multi-atributo. Negociación sobre múltiples dimensiones: precio, cantidad, calidad, tiempo. Modelos de utilidad multi-atributo. Estrategias de concesión en espacios multi-dimensionales.
+    8. **Semana 8:** Algoritmos de Búsqueda en Árboles (MCTS). Monte Carlo Tree Search: selección, expansión, simulación, backpropagation. Aplicaciones en juegos con información perfecta e imperfecta.
+    9. **Semana 9:** MCTS Aplicado a Negociación Secuencial. Extensiones de MCTS para POMDPs (POMCP). Uso para planificar secuencias de ofertas y contra-ofertas en regateo complejo y subastas secuenciales.
+    10. **Semana 10:** Mercados de Predicción y Agregación de Información. Concepto y funcionamiento de mercados de predicción. Market Scoring Rules: Logarithmic Market Scoring Rule (LMSR). Agregación descentralizada de información.
+    11. **Semana 11:** Tácticas Algorítmicas y Robustez contra Manipulación. Estrategias de anclaje algorítmico. Técnicas de escalada y devaluación. Detección de tácticas adversarias. Prevención de manipulación y resistencia a colusiones.
+    12. **Semana 12:** Escalabilidad y Algoritmos Aproximados. Estrategias de descomposición para entornos de alta dimensionalidad. Negociación peer-to-peer vs centralizada. Algoritmos aproximados para muchos agentes.
+    13. **Semana 13:** Integración de Conocimiento y LLMs. Uso de LLMs para procesar información textual relevante. Integración con Knowledge Graphs y bases de datos. Modelos híbridos para estrategia de negociación.
+    14. **Semana 14:** Simulación, Benchmarking y Evaluación Comparativa. Simulaciones multiagente a gran escala. Métricas de evaluación: eficiencia de Pareto, equidad (coeficiente Gini), velocidad de convergencia, resistencia a manipulación.
+*   **Bibliografía Esencial:**
+    *   Nisan, N., Roughgarden, T., Tardos, E., & Vazirani, V. V. (Eds.). (2007). *Algorithmic Game Theory*. Cambridge University Press. (Capítulos 9, 11, 13, 18).
+    *   Boutilier, C., Dean, T., & Hanks, S. (2006). "Decision-Theoretic Planning under Uncertainty." *Journal of AI Research*, 11, 1-94.
+    *   Osborne, M. J., & Rubinstein, A. (1990). *Bargaining and Markets*. Academic Press.
+    *   Browne, C., Powley, E., et al. (2012). "A Survey of Monte Carlo Tree Search Methods." *IEEE Trans. on Computational Intelligence and AI in Games*, 4(1), 1-43.
+    *   Papers recientes sobre negociación en redes, POMDPs multiagente, MCTS aplicado a negociación, y mercados de predicción (AAMAS, IJCAI, AAAI).
+*   **Evaluación:**
+    *   Problem sets (25%) - 4 conjuntos de problemas sobre POMDPs, algoritmos de búsqueda, escalabilidad y diseño de protocolos.
+    *   Proyecto MCTS para Negociación Compleja (40%) - Implementar MCTS/POMCP para resolver negociación secuencial con incertidumbre, comparando con al menos un protocolo estructurado alternativo.
+    *   xamen final teórico-algorítmico (35%) - Cubre conceptos teóricos, propiedades de algoritmos y diseño de protocolos robustos.
+*   **Laboratorio (2h/sem):**
+    *   Semanas 1-3: Configuración de entornos POMDP multiagente usando `Gymnasium` y `PettingZoo`. Implementación de belief tracking básico. Simulación de negociación con información parcial.
+    *   Semanas 4-6: Implementación de subastas combinatorias básicas y modelos de regateo Rubinstein. Algoritmos de negociación en redes usando `networkx`. Propagación de acuerdos y coordinación distribuida.
+    *   Semanas 7-10: Implementación de MCTS básico y adaptación a negociación secuencial. Experimentación con POMCP. Implementación de Market Scoring Rules y simulación de mercados de predicción.
+    *   Semanas 11-14: Desarrollo de tácticas algorítmicas avanzadas. Integración de APIs de LLMs para procesamiento de información contextual. Configuración de simulaciones multiagente comparativas y análisis de métricas de rendimiento.
+
 ![Separador](imagen1.png)
 ### NSA-106: Interacción Humano-Agente en Negociación
 
