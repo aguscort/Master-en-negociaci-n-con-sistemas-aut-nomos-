@@ -82,45 +82,45 @@
 
 
 ![Separador](imagen1.png)
-### NSA-103: Psicología y Ética en la Negociación
-
-*   **Créditos:** 5 ECTS
-*   **Dedicación:** 3 horas de teoría + 2 horas de laboratorio/seminario por semana (Total 12 semanas de docencia)
-*   **Pre-requisitos:** NSA-101 (concurrente).
-*   **Objetivos de Aprendizaje:**
-    *   Analizar los principales sesgos cognitivos y conductuales que afectan la toma de decisiones y la negociación humana.
-    *   Comprender las teorías éticas fundamentales y su relevancia para el diseño y operación de agentes autónomos.
-    *   Formalizar y integrar principios éticos (justicia, transparencia, no maleficencia) en los sistemas de control y recompensa de agentes.
-    *   Evaluar el comportamiento de los agentes negociadores desde una perspectiva ética, utilizando métricas de fairness y diseñando sistemas de puntuación moral.
-*   **Temario Detallado (12 semanas):**
-    1.  **Semana 1:** Introducción a la Psicología de la Decisión. Modelos de racionalidad limitada. La Prospect Theory (teoría de las expectativas). Aversión a la pérdida.
-    2.  **Semana 2:** Heurísticas y Sesgos en la Negociación. Sesgos comunes: anclaje, framing, exceso de confianza. El papel de las emociones y los estados afectivos.
-    3.  **Semana 3:** Elementos Psicológicos de la Negociación. La Zona de Posible Acuerdo (ZOPA). BATNA (Mejor Alternativa a un Acuerdo Negociado). El rol de la confianza, la reputación y la reciprocidad (positivo/negativo).
-    4.  **Semana 4:** Introducción a la Ética Filosófica. Utilitarismo (consecuencialismo). Deontología (imperativo categórico Kantiano). Ética de la Virtud (Aristóteles). Aplicación a la IA.
-    5.  **Semana 5:** Principios Éticos para la IA. Justicia, Transparencia/Explicabilidad, Responsabilidad, Seguridad/No Maleficencia, Privacidad, Beneficencia. Guías éticas de organizaciones y gobiernos.
-    6.  **Semana 6:** El Problema de la Alineación de Valores. Garantizar que los objetivos de la IA estén alineados con los valores humanos. Desafíos en entornos multiagente.
-    7.  **Semana 7:** Formalización de la Ética en Agentes. Integración del vector de valores (V) en la función de utilidad/recompensa. Ejemplo: `U(a; θ, V) = U_econ(a; θ) + α * U_eticos(a; V)`.
-    8.  **Semana 8:** Sistemas de Recompensa Ética. Penalizaciones por acciones no éticas. Recompensas intrínsecas por seguir principios éticos. Aprendizaje por Refuerzo a partir de Feedback Humano (RLHF) como mecanismo de alineación (conceptos básicos).
-    9.  **Semana 9:** Fairness en Sistemas Multiagente. Definiciones de fairness (individual, grupal, procedimental, distributiva). Métricas comunes de fairness (disparidad demográfica, igualdad de oportunidades). Trade-offs entre fairness y eficiencia.
-    10. **Semana 10:** Transparencia y Explicabilidad (XAI). ¿Por qué un agente negociador tomó una decisión? Métodos de XAI aplicados a modelos de decisión y LLMs (LIME, SHAP - conceptos). Auditabilidad de los algoritmos.
-    11. **Semana 11:** Diseño de un "Score Moral" o "Índice Ético". Cómo cuantificar el comportamiento ético de un agente a lo largo del tiempo. Definición de criterios y ponderaciones.
-    12. **Semana 12:** Gobernanza y Regulación. Propuestas de marcos regulatorios (ej. Ley de IA de la UE - aspectos relevantes para agentes autónomos). Responsabilidad e imputabilidad. Dilemas éticos en casos de estudio (ej. uso de agentes negociadores en mercados financieros o sistemas críticos).
+### NSA-103: Psicología e Interacción Humano-Agente en Negociación
+*   **Créditos:** 6 ECTS  
+*   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (12 semanas)  
+*   **Pre-requisitos:** NSA-101, NSA-105  
+*   **Objetivos de Aprendizaje:**  
+    *   Analizar las dinámicas psicológicas y cognitivas en negociaciones con agentes autónomos.  
+    *   Diseñar interfaces y protocolos que fomenten confianza, colaboración y competencia justa entre humanos y agentes.
+    *   Ealuar la percepción humana sobre agentes negociadores en términos de justicia, competencia e intencionalidad.
+    *   Aplicar principios de diseño centrado en el humano para sistemas de negociación asistida o autónoma.
+    *   Profundizar en psicología cognitiva para comprender procesos mentales relevantes en la negociación.
+    *   Diseñar y ejecutar experimentos para evaluar la interacción humano-agente.
+*   **Temario Detallado (12 semanas):**  
+    1.  **Semana 1:** Introducción a la interacción humano-IA en negociación: conceptos, modelos y retos. Fundamentos psicológicos y cognitivos.  
+    2.  **Semana 2:** Bases de la psicología cognitiva: percepción, atención y memoria.  
+    3.  **Semana 3:** Procesos de toma de decisiones y sesgos cognitivos en negociación.
+    4.  **Semana 4:** Modelos de confianza en sistemas humanos y agentes.
+    5. **Semana 5:** Psicología de la interacción con agentes: antropomorfismo y atribución de intenciones.  
+    6. **Semana 6:** Diseño de interfaces para negociación humano-agente: visualización, controles y supervisión.  
+    7. **Semana 7:** Explicabilidad en agentes negociadores: técnicas y adaptación para usuarios.  
+    8. **Semana 8:** Sistemas de negociación asistida por IA: herramientas para aumentar capacidades humanas.  
+    9. **Semana 9:** Evaluación de percepción humana: métricas de usabilidad, justicia y competencia.  
+    10. **Semana 10:** Diseño de experimentos en interacción humano-agente: metodologías y protocolos.  
+    11. **Semana 11:** Conducción de experimentos: reclutamiento, preparación y recogida de datos.  
+    12. **Semana 12:** Análisis de datos y presentación crítica de proyectos finales.      
 *   **Bibliografía Esencial:**
-    *   Kahneman, D. (2011). *Thinking, Fast and Slow*. Penguin Books. (Capítulos seleccionados sobre heurísticas y sesgos).
-    *   Bazerman, M. H., & Moore, D. A. (2013). *Judgment in Managerial Decision Making* (9th ed.). Wiley. (Capítulos 9-11 sobre negociación).
-    *   Wallach, W., & Allen, C. (2009). *Moral Machines: Teaching Robots Right from Wrong*. Oxford University Press.
-    *   Mittelstadt, B. D., et al. (2016). *The Ethics of Algorithms: Mapping the Debate*. AI & Society, 31(3), 317-331.
-    *   Papers recientes sobre Fairness in AI, Value Alignment, y XAI.
+    *   Dix, A., Finlay, J., Abowd, G., & Beale, R. (2004). *Human-Computer Interaction*. Pearson.
+    *   Shneiderman, B., Plaisant, C., Cohen, M., Jacobs, S., & Elmqvist, N. (2016). *Designing the User Interface*. Pearson.
+    *   Lee, J. D., & See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. *Human Factors*, 46(1), 50–80.
+    *   Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+    *   Matlin, M. W. (2009). *Cognition* (8th ed.). Wiley.
+    *   Artículos recientes sobre psicología y cognición en interacción humano-IA.  
 *   **Evaluación:**
-    *   Ensayos (30%) - 3 ensayos cortos (aprox. 1000 palabras cada uno) analizando casos de estudio o conceptos éticos/psicológicos.
-    *   Diseño de un Score Moral (30%) - Documento que proponga y justifique un sistema para puntuar el comportamiento ético de agentes en un escenario dado.
-    *   Proyecto Agente Ético (20%) - Implementación básica en laboratorio de un agente simple con una restricción o función de recompensa ética.
-    *   Examen final (20%) - Cubre conceptos teóricos y su aplicación a casos.
-*   **Laboratorio/Seminario (2h/sem):**
-    *   Semanas 1-3: Discusión de casos de negociación famosos analizados desde la perspectiva de sesgos cognitivos. Ejercicios prácticos para identificar sesgos.
-    *   Semanas 4-6: Análisis y debate de dilemas éticos clásicos y su adaptación al contexto de IA. Discusión de guías éticas de IA.
-    *   Semanas 7-9: Trabajo en el proyecto "Agente Ético": modelado de funciones de utilidad con componentes éticos, implementación de penalizaciones en un entorno de simulación simple. Uso de herramientas XAI básicas (ej. LIME/SHAP en un modelo de decisión simple) para "inspeccionar" por qué un agente tomó una acción.
-    *   Semanas 10-12: Trabajo en el proyecto "Score Moral". Análisis de métricas de fairness en datasets sintéticos. Debates estructurados sobre casos de gobernanza y regulación.
+    *   Diseño de experimento en interacción humano-agente (40%)  
+    *   Análisis de datos de interacción (30%)  
+    *   Informe y prototipo de interfaz/usabilidad (30%)
+*   **Laboratorio (2h/sem):**  
+    *   Semanas 1-4: Análisis de interfaces y bases cognitivas.
+    *   Semanas 5-8: Prototipado, desarrollo de métricas y encuestas.
+    *   Semanas 9-12: Preparación, ejecución y análisis de experimentos; presentación de informes. 
 
 
 ![Separador](imagen1.png)
