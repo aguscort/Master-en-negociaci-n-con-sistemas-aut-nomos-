@@ -36,7 +36,7 @@ El programa se articula en dos años académicos, divididos en cuatro cuatrimest
         *   NSA-105: Grandes Modelos de Lenguaje y Diálogo Estratégico ### NSA-104: Protocolos Algorítmicos de Negociación
         *   NSA-106: Interacción Humano-Agente en Negociación
         *   NSA-107: Aprendizaje Inverso y Modelado de Agentes
-        *   NSA-1### NSA-110: Seminario de Investigación y Temas de Vanguardia08: Programación avanzada con LLMs
+        *   NSA-108: Programación avanzada con LLMs
         *   NSA-109: Ética Aplicada y Gobernanza de Sistemas Autónomos Negociadores
         *   NSA-110: Seminario de Investigación y Temas de Vanguardia
 *   [**Año 2 (60 ECTS): Aplicación, Investigación y Especialización**](segundo-año.md)
