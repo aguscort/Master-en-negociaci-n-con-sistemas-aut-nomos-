@@ -3,7 +3,7 @@
 ## CUATRIMESTRE 1 (Q1): Pilares Cuantitativos y de IA (30 ECTS)
 
 ![Separador](imagen1.png)
-### NSA-101: Teoría de Juegos para Agentes Autónomos
+### <a id="nsa101"></a>NSA-101: Teoría de Juegos para Agentes Autónomos
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 12 semanas de docencia)
@@ -42,7 +42,7 @@
 
 
 ![Separador](imagen1.png)
-### NSA-102: Aprendizaje por Refuerzo Multiagente (MARL)
+###  <a id="nsa102"></a>NSA-102: Aprendizaje por Refuerzo Multiagente (MARL)
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 12 semanas de docencia)
@@ -82,7 +82,7 @@
 
 
 ![Separador](imagen1.png)
-### NSA-103: Psicología e Interacción Humano-Agente en Negociación
+###  <a id="nsa103"></a>NSA-103: Psicología e Interacción Humano-Agente en Negociación
 *   **Créditos:** 6 ECTS  
 *   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (12 semanas)  
 *   **Pre-requisitos:** NSA-101, NSA-105  
@@ -124,7 +124,7 @@
 
 
 ![Separador](imagen1.png)
-# NSA203 – Teoría del Lenguaje, Semiótica y Análisis del Discurso  
+### <a id="nsa203"></a>NSA203 – Teoría del Lenguaje, Semiótica y Análisis del Discurso  
 
 *   ***ECTS**: 6  
 *   **Semestre**: Segundo año, segundo semestre  
@@ -174,7 +174,7 @@ Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación
 
 
 ![Separador](imagen1.png)
-### NSA-105: Grandes Modelos de Lenguaje y Diálogo Estratégico
+###  <a id="nsa105"></a>NSA-105: Grandes Modelos de Lenguaje y Diálogo Estratégico
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 12 semanas de docencia)
@@ -220,7 +220,7 @@ Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación
 
 ## CUATRIMESTRE 2 (Q2): Interacción, Cognición y Diseño (30 ECTS)
 ![Separador](imagen1.png)
-### NSA-104: Protocolos Algorítmicos de Negociación
+###  <a id="nsa104"></a>NSA-104: Protocolos Algorítmicos de Negociación
 
 *   **Créditos:** 6 ECTS  
 *   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 14 semanas de docencia)  
@@ -263,7 +263,7 @@ Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación
     *   Semanas 11-14: Desarrollo de tácticas algorítmicas avanzadas. Integración de APIs de LLMs para procesamiento de información contextual. Configuración de simulaciones multiagente comparativas y análisis de métricas de rendimiento.
 
 ![Separador](imagen1.png)
-### NSA-106: Interacción Humano-Agente en Negociación
+###  <a id="nsa105"></a>NSA-106: Interacción Humano-Agente en Negociación
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 4h teoría + 2h laboratorio/seminario por semana
@@ -300,7 +300,7 @@ Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación
 
 
 ![Separador](imagen1.png)
-### NSA-107: Aprendizaje Inverso y Modelado de Agentes
+###  <a id="nsa107"></a>NSA-107: Aprendizaje Inverso y Modelado de Agentes
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 4h teoría + 2h laboratorio por semana
@@ -342,7 +342,7 @@ Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación
 
 
 ![Separador](imagen1.png)
-### NSA-108: Programación avanzada con LLMs
+###  <a id="nsa108"></a>NSA-108: Programación avanzada con LLMs
 
 *   **Créditos:** 6 ECTS  
 *   **Dedicación:** 4 horas de teoría + 2 horas de laboratorio por semana (Total 14 semanas de docencia)  
@@ -390,7 +390,7 @@ Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación
 
 
 ![Separador](imagen1.png)
-### NSA-109: Ética Aplicada y Gobernanza de Sistemas Autónomos Negociadores
+###  <a id="nsa109"></a>NSA-109: Ética Aplicada y Gobernanza de Sistemas Autónomos Negociadores
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 4h teoría/seminario + 2h laboratorio/seminario por semana
@@ -428,7 +428,7 @@ Estudio práctico de un corpus real de interacciones humano-sistema. Aplicación
 
 
 ![Separador](imagen1.png)
-### NSA-110: Seminario de Investigación y Temas de Vanguardia
+###  <a id="nsa1100"></a>NSA-110: Seminario de Investigación y Temas de Vanguardia
 
 *   **Créditos:** 6 ECTS
 *   **Dedicación:** 3h seminario/discusión + 3h trabajo autónomo por semana
