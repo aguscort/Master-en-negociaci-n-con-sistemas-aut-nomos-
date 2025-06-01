@@ -25,19 +25,19 @@ La maestría está dirigida a graduados con perfiles cuantitativos y técnicos, 
 
 El programa se articula en dos años académicos, divididos en cuatro cuatrimestres, sumando un total de 120 ECTS.
 
-*   [**Año 1 (60 ECTS): Fundamentos Teórico-Técnicos e Interdisciplinarios**](primer-año.md)
-    *   Cuatrimestre 1 (Q1): Pilares Cuantitativos y de IA (30 ECTS)
-        *   NSA-101: Teoría de Juegos para Agentes Autónomos
-        *   NSA-102: Aprendizaje por Refuerzo Multiagente (MARL)
-        *   NSA-103: Psicología e Interacción Humano-Agente en Negociación
-        *   NSA-104: Teoría del Lenguaje, Semiótica y Análisis del Discurso
-        *   NSA-105: Grandes Modelos de Lenguaje y Diálogo Estratégico
+*   **Año 1 (60 ECTS): Fundamentos Teórico-Técnicos e Interdisciplinarios*
+    *   Cuatrimestre 1 (Q1): Pilares Cuantitativos y de IA (30 ECTS)](primer-año.md)
+        *   [NSA-101: Teoría de Juegos para Agentes Autónomos](primer-año.md/#nsa101)
+        *   [NSA-102: Aprendizaje por Refuerzo Multiagente (MARL)](primer-año.md/#nsa102)
+        *   [NSA-103: Psicología e Interacción Humano-Agente en Negociación](primer-año.md/#nsa103)
+        *   [NSA-104: Teoría del Lenguaje, Semiótica y Análisis del Discurso](primer-año.md/#nsa104)
+        *   [NSA-105: Grandes Modelos de Lenguaje y Diálogo Estratégico](primer-año.md/#nsa105)
     *   Cuatrimestre 2 (Q2): Interacción, Cognición y Diseño (30 ECTS)
-        *   NSA-104: Protocolos Algorítmicos de Negociación
-        *   NSA-107: Aprendizaje Inverso y Modelado de Agentes
-        *   NSA-108: Programación avanzada con LLMs
-        *   NSA-109: Ética Aplicada y Gobernanza de Sistemas Autónomos Negociadores
-        *   NSA-110: Seminario de Investigación y Temas de Vanguardia
+        *   [NSA-104: Protocolos Algorítmicos de Negociación](primer-año.md/#nsa104)
+        *   [NSA-107: Aprendizaje Inverso y Modelado de Agentes](primer-año.md/#nsa107)
+        *   [NSA-108: Programación avanzada con LLMs](primer-año.md/#nsa108)
+        *   [NSA-109: Ética Aplicada y Gobernanza de Sistemas Autónomos Negociadores](primer-año.md/#nsa109)
+        *   [NSA-110: Seminario de Investigación y Temas de Vanguardia](primer-año.md/#nsa110)
 *   [**Año 2 (60 ECTS): Aplicación, Investigación y Especialización**](segundo-año.md)
     *   Cuatrimestre 3 (Q3): Sistemas Avanzados y Aplicaciones (30 ECTS)
     *   Cuatrimestre 4 (Q4): Práctica Profesional y Proyecto Final (30 ECTS)
